@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java 설치 - 완료</String>
+  <String Id="headerJava">시스템에서 감지된 Java 설치가 없습니다.</String>
+  <String Id="closeBtn">닫기(&amp;C)</String>
+
+</WixLocalization>

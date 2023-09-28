@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java SE 开发工具包 8 - 安装</String>
+
+  <String Id="headerJava">
+      本向导将指导您完成 %1 的安装过程
+  </String>
+  <String Id="description1">
+      授权使用此软件版本的条款已更改。
+  </String>
+   <String Id="license">
+      [更新的许可协议]
+  </String>
+  <String Id="description2">
+      Java Mission Control 分析和诊断工具套件现在作为 JDK 的一部分提供
+  </String>
+  <String Id="description3">
+      此版本的 JDK 不再包括 Java Mission Control (JMC) 的副本。JMC 现在需要单独下载。
+  </String>
+  <String Id="jmclink">
+      有关更多信息，请访问 [https://www.oracle.com/javase/jmc]
+  </String>
+  <String Id="personalInfo">
+      在我们的安装过程中, 不会收集个人信息。
+  </String>
+  <String Id="personalInfolink">
+      [有关我们所收集信息的详细信息]
+  </String>
+  <String Id="installBtn">下一步</String>
+  <String Id="cancelBtn">取消</String>
+
+</WixLocalization>

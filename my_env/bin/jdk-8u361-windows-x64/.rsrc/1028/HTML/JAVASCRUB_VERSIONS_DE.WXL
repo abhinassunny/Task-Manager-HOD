@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java-Setup - Veraltete Versionen deinstallieren</String>
+    <String Id="headerText">Veraltete Java-Versionen erkannt</String>
+    <String Id="description">
+        Wenn veraltete Java-Versionen auf dem System beibehalten werden, kann dies ein Sicherheitsrisiko darstellen.
+    </String>
+    <String Id="uninstallInfo">
+        Klicken Sie auf "Deinstallieren", um die ausgewählten Java-Versionen zu deinstallieren.
+    </String>
+    <String Id="moreInfo">
+        Warnung: Durch die Deinstallation veralteter Java-Versionen können einige ältere Java-
+        Anwendungen möglicherweise nicht mehr ausgeführt werden. [Weitere Informationen]
+    </String>
+    <String Id="laterBtn">&amp;Nicht jetzt</String>
+    <String Id="uninstallBtn">&amp;Deinstallieren ></String>
+</WixLocalization>

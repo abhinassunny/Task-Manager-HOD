@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Rimuovere le versioni obsolete di Java</String>
+  <String Id="Header">Rimuovere le versioni obsolete di Java</String>
+  <String Id="Description">
+    La versione del software Java su questo computer non è aggiornata e non ci sono ulteriori aggiornamenti.
+  </String>
+  <String Id="StillUse">
+      Conservare nel sistema versioni obsolete di Java può rappresentare un rischio per la sicurezza.
+  </String>
+  <String Id="Outofdatewarning">Se, dopo la rimozione, Java è ancora necessario per eseguire le applicazioni sul desktop, andare al sito [java.com] per una versione consigliata.</String>
+  <String Id="removeBtn">&amp;Rimuovi ></String>
+</WixLocalization>

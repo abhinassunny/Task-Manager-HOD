@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Impostazione Java - Completata</String>
+    <String Id="uninstalledVersionsText">
+        Disinstallazione versioni Java obsolete completata
+    </String>
+    <String Id="remainingVersionsText">
+        Rilevate versioni obsolete rimaste sul sistema
+    </String>
+    <String Id="closeBtn">A&amp;vanti ></String>
+    <String Id="securityInfo">
+        Mantenere versioni Java obsolete installate sul sistema può presentare un rischio alla sicurezza. Fare clic [qui] per ulteriori informazioni e istruzioni su come rimuovere le versioni obsolete.
+    </String>
+    <String Id="uninstalledListNone">
+        Nessuno
+    </String>
+    <String Id="remainingListNone">
+        Nessuno
+    </String>
+</WixLocalization>

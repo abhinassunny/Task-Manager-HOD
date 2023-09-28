@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="fr" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Cache de déploiement Java</String>
+    <String Id="headerText">Cache de déploiement Java</String>
+    <String Id="description">
+        Java conserve un cache pour accélérer le rechargement des programmes Java fréquemment utilisés et pour stocker les fichiers journaux et trace. Si vous enlevez Java Runtime, nous vous recommandons également d'enlever ce cache pour libérer de l'espace sur votre ordinateur.
+    </String>
+    <String Id="question">
+        Voulez-vous enlever le cache Java (recommandé) ?
+    </String>
+    <String Id="learnmore">
+        En savoir plus sur le [cache de déploiement Java]
+    </String>
+    <String Id="disagreeBtn">&amp;Non</String>
+    <String Id="agreeBtn">&amp;Oui</String>
+</WixLocalization>

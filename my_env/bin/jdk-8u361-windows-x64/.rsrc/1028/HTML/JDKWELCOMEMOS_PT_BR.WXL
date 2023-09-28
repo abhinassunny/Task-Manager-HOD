@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Java SE Development Kit 8 - Configuração</String>
+  <String Id="headerJava">
+    Este assistente orientará você no processo de instalação do %1
+  </String>
+  <String Id="description1">
+    Esta versão do Java requer que você tenha uma licença para o Oracle Java SE da Oracle, de um parceiro Oracle autorizado ou de um provedor de software terceiro autorizado. É sua responsabilidade determinar se você possui uma licença apropriada. Em caso afirmativo, clique em Próximo para continuar com o processo de instalação.
+  </String>
+  <String Id="description2">
+    Caso você não possua uma licença, clique em Cancelar para interromper o processo de instalação e decidir se vai remover versões mais antigas do Java.
+  </String>
+  <String Id="personalInfo">
+      Não são solicitadas informações pessoais durante o processo de instalação.
+      [Detalhes sobre as informações que coletamos]
+  </String>
+  <String Id="installBtn">Próximo</String>
+  <String Id="cancelBtn">Cancelar</String>
+
+</WixLocalization>

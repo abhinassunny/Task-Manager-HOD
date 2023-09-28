@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - 未完了</String>
+  <String Id="headerInstall">Javaのインストールが完了しませんでした</String>
+  <String Id="headerUpdate">Java Updateが完了しませんでした</String>
+  <String Id="errorCodeFormat">エラー・コード: %1</String>
+  <String Id="helpText">トラブルシューティングの情報は、Javaヘルプ・センターを参照するか、システム管理者に連絡してください。</String>
+  <String Id="helpLink">[Javaヘルプ・センターに移動]</String>
+  <String Id="closeBtn">閉じる(&amp;C)</String>
+
+</WixLocalization>

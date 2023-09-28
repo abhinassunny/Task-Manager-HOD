@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java SE 开发工具包 8 - 安装</String>
+  <String Id="headerJava">
+    本向导将指导您完成 %1 的安装过程
+  </String>
+  <String Id="description1">
+    此 Java 版本需要您拥有 Oracle、授权的 Oracle 合作伙伴或授权的第三方软件提供商提供的 Oracle Java SE 许可证。由您负责确定自身是否拥有相应的许可证。如果有，请单击“下一步”以继续执行安装过程。
+  </String>
+  <String Id="description2">
+    如果您没有许可证，请单击“取消”以停止安装过程，并选择是否删除旧 Java 版本。
+  </String>
+  <String Id="personalInfo">
+      在我们的安装过程中，不会收集个人信息。
+      [有关我们所收集信息的详细信息]
+  </String>
+  <String Id="installBtn">下一步</String>
+  <String Id="cancelBtn">取消</String>
+
+</WixLocalization>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Java-Update - Update verfügbar</String>
+  <String Id="Header">Entfernen Sie nicht verwendete Java-Versionen</String>
+  <String Id="Description1">
+    Sie haben Java seit über 6 Monaten nicht mehr auf Ihrem System verwendet. Wir empfehlen, dass Sie Java deinstallieren, indem Sie auf die Schaltfläche &lt;b>Entfernen&lt;/b> unten klicken. Wenn Sie zu einem späteren Zeitpunkt feststellen, dass Sie Java doch benötigen, können Sie es über java.com installieren.
+  </String>
+  <String Id="Description2">
+    Wenn Sie Java weiterhin auf Ihrem System behalten möchten, klicken Sie unten auf die Schaltfläche &lt;b>Aktualisieren&lt;/b>.
+  </String>
+  <String Id="nextBtn">&amp;Entfernen ></String>
+  <String Id="backBtn">Update</String>
+</WixLocalization>

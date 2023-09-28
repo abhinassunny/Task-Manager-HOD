@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+    <String Id="title">Java 배치 캐시</String>
+    <String Id="headerText">Java 배치 캐시</String>
+    <String Id="description">
+        Java는 일반적으로 사용되는 Java 프로그램의 다시 로드 속도를 높이기 위해 캐시를 유지하고 추적 및 로그 파일을 저장합니다. Java Runtime을 제거할 때는 이 캐시도 제거하여 컴퓨터 공간을 확보하는 것이 좋습니다.
+    </String>
+    <String Id="question">
+        Java 캐시를 제거하겠습니까(권장)?
+    </String>
+    <String Id="learnmore">
+        [Java 배치 캐시]에 대한 자세한 정보
+    </String>
+    <String Id="disagreeBtn">아니오(&amp;N)</String>
+    <String Id="agreeBtn">예(&amp;Y)</String>
+</WixLocalization>

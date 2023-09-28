@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id='lang'>1033</String>
+
+  <String Id='title'>Java Setup - Browser Plug-in Disabled</String>
+  <String Id='header'>Java content is disabled in web browsers</String>
+  <String Id='description'>
+      To enable, select 'Enable Java content in the browser' on the Security tab of the Java Control Panel.
+  </String>
+  <String Id='nextBtn'>&amp;Next &gt;</String>
+
+</WixLocalization>

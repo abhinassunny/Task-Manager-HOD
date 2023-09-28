@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Configuração do Java - Restaurar Prompts de Segurança</String>
+  <String Id="header">Restaurar prompts de segurança do Java</String>
+  <String Id="description">
+      Alguns prompts de segurança do Java foram ocultos quando você selecionou a opção 'Não mostrar novamente'.
+	  Você pode aumentar a segurança das suas informações pessoais, restaurando esses prompts a cada 30 dias.
+  </String>
+  <String Id="moreInfo">
+      [Mais informações]
+  </String>
+  <String Id="restoreCheckbox">
+      Restaurar prompts de segurança do Java
+  </String>
+  <String Id="backBtn">&amp;Voltar</String>
+  <String Id="nextBtn">&amp;Próximo ></String>
+
+</WixLocalization>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1031</String>
+
+  <String Id="title">Java-Setup – Browser-Plug-in deaktiviert</String>
+  <String Id="header">Java-Inhalte werden in Webbrowsern deaktiviert</String>
+  <String Id="description">Wählen Sie zum Aktivieren dieser Funktion die Option "Java-Inhalte im Webbrowser" auf der Registerkarte "Sicherheit" im Java Control Panel aus.</String>
+  <String Id="nextBtn">&amp;Weiter ></String>
+
+</WixLocalization>

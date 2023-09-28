@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 - 未完成</String>
+  <String Id="headerInstall">Java 安裝並未完成</String>
+  <String Id="headerUpdate">Java 更新未完成</String>
+  <String Id="errorCodeFormat">錯誤碼: %1</String>
+  <String Id="helpText">請參閱「Java 說明中心」取得疑難排解資訊，或洽詢您的系統管理員。</String>
+  <String Id="helpLink">[前往 Java 說明中心]</String>
+  <String Id="closeBtn">關閉(&amp;C)</String>
+
+</WixLocalization>

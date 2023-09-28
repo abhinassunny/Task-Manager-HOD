@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="title">Javaセットアップ - 検出された複数のJavaバージョン</String>
+  <String Id="headerText">複数のJavaバージョンが検出されました</String>
+  <String Id="description">
+        お使いのマシンで次のJavaバージョンが検出されました。システムは
+        組織のIT部門で管理されていて、これらのバージョンを必要とする場合があります。
+  </String>
+  <String Id="nextBtn">閉じる(&amp;C)</String>
+</WixLocalization>

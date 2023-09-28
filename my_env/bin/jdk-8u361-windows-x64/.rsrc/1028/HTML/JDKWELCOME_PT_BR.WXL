@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Java SE Development Kit 8 - Configuração</String>
+
+  <String Id="headerJava">
+      Este assistente orientará você no processo de instalação do %1
+  </String>
+  <String Id="description1">
+      As condições sob as quais esta versão do software é licenciada foram alteradas.
+  </String>
+   <String Id="license">
+      [Contrato de Licença Atualizado]
+  </String>
+  <String Id="description2">
+      A suíte de ferramentas de perfilamento e diagnóstico Java Mission Control está disponível agora como parte do JDK
+  </String>
+  <String Id="description3">
+      Esta versão do JDK não inclui mais uma cópia do JMC (Java Mission Control). O JMC agora está disponível como um download separado.
+  </String>
+  <String Id="jmclink">
+      Visite [https://www.oracle.com/javase/jmc] para obter mais informações
+  </String>
+  <String Id="personalInfo">
+      Não solicitamos informações pessoais durante o processo de instalação.
+  </String>
+  <String Id="personalInfolink">
+      [Detalhes das informações que coletamos]
+  </String>
+  <String Id="installBtn">Próximo</String>
+  <String Id="cancelBtn">Cancelar</String>
+
+</WixLocalization>

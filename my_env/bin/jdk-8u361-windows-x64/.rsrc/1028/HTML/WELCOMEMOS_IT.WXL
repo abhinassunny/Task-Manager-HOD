@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1040</String>
+
+  <String Id="title">Impostazione Java - Benvenuti</String>
+  <String Id="header">Benvenuti in Java</String>
+  <String Id="description">
+      Questa versione di Java richiede che si disponga di una licenza per Oracle Java SE acquistata da Oracle, da un partner di Oracle autorizzato o da un fornitore di software di terze parti autorizzato. È responsabilità dell'utente determinare se si dispone di una licenza appropriata. In tal caso, fare clic su Installa per continuare con il processo di installazione.
+  </String>
+  <String Id="description2">
+      Se non si dispone di una licenza, fare clic su Rimuovi per interrompere il processo di installazione e scegliere se rimuovere le versioni precedenti di Java.
+  </String>
+  <String Id="personalInfo">
+      Durante il processo di installazione non vengono raccolti dati personali di alcun genere.
+      [Dettagli sulle informazioni raccolte]
+  </String>
+  <String Id="changeFolder">Modifica cartella di destinazione</String>
+  <String Id="installBtn">Installa</String>
+  <String Id="removeBtn">&amp;Rimuovi</String>
+
+</WixLocalization>

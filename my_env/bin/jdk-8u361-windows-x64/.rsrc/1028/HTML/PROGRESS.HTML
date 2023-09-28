@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+function setProgress(completePercentage) {
+    completePercentage = parseFloat(completePercentage);
+    if (completePercentage < 0) {
+        completePercentage = 0
+    } else if (completePercentage > 100) {
+        completePercentage = 100
+    }
+
+    var fg = getElementsByClassName.call(document, "fg")[0]
+
+    fg.style.display = (completePercentage == 0) ? "none" : "block"
+    fg.style.width = completePercentage + "%"
+}
+
+var banners = {
+    urls: [],
+    curIndex: 0,
+    switchInterval: 5000, // default is 5 seconds
+    timer: null
+}
+
+function switchBanner() {
+    banners.curIndex = (banners.curIndex + 1) % banners.urls.length;
+    getElement("banner").src = banners.urls[banners.curIndex];
+}
+
+function addBanner(url) {
+    banners.urls.push(url);
+    if (banners.urls.length == 1) { // the 1st image
+        // just switch to the image
+        switchBanner();
+    } else if (banners.urls.length == 2) {
+        // start timer when we have 2 images
+        setSwitchInterval(banners.switchInterval);
+    }
+}
+
+function setSwitchInterval(interval) {
+    banners.switchInterval = interval;
+    if (banners.timer) {
+        clearInterval(banners.timer);
+    }
+    banners.timer = setInterval(switchBanner, banners.switchInterval);
+}
+
+// disable close button
+host.setWindowProp("closeButton", 0);
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>#main {
+  padding: 0;
+  margin: 0;
+  
+  /* TODO: revise (calculate content height and center the image vertically) */
+  display: table-cell;
+  vertical-align: middle;
+  height: 202px;
+}
+
+#main img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 512px;
+  height: 205px;
+}
+
+#header_ctnr {
+  padding-left: 20pt;
+  padding-right: 20pt;
+  text-align: left;
+}
+
+.status {
+  font-size: 10pt;
+  font-weight: normal;
+  margin-bottom: 2pt;
+}
+.status #status {
+  margin-left: 10pt;
+}
+
+.progress {
+  position: relative;
+  /* center progress bar*/
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.progress .left,.progress .right {
+  width: 2px;
+}
+.progress .fill>img {
+  width: 100%;
+}
+.progress img {
+  height: 16px;
+  display: block;
+}
+.progress .fg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-order: 10;
+  width: 0;
+}
+
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+﻿<div id="header.src">
+  <div class="status">
+    <span id="statusLbl"></span>:<span id="status"></span>
+  </div>
+  <div class="progress">
+    <div class="bg">
+      <table>
+        <tr>
+          <td class="left"><img alt="" src="progress_bg_left.png"></td>
+          <td class="fill"><img alt="" src="progress_bg_fill.png"/></td>
+          <td class="right"><img alt="" src="progress_bg_right.png"/></td>
+        </tr>
+      </table>
+    </div>
+    <div class="fg">
+      <table>
+        <tr>
+          <td class="left"><img alt="" src="progress_fg_left.png"></td>
+          <td class="fill"><img alt="" src="progress_fg_fill.png"/></td>
+          <td class="right"><img alt="" src="progress_fg_right.png"/></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="main.src"><img id="banner" alt="" src="Java3BillDevices_EN.png"/></div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

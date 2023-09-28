@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1040</String>
+
+  <String Id="title">Impostazione Java - Ripristino dei prompt di sicurezza</String>
+  <String Id="header">Ripristina prompt di sicurezza Java</String>
+  <String Id="description">
+      Alcuni prompt di sicurezza Java sono stati nascosti quando è stata selezionata l'opzione "Non visualizzare nuovamente".
+	  È possibile migliorare la sicurezza delle informazioni personali ripristinando questi prompt ogni 30 giorni.
+  </String>
+  <String Id="moreInfo">
+      [Ulteriori informazioni]
+  </String>
+  <String Id="restoreCheckbox">Ripristina prompt di sicurezza Java</String>
+  <String Id="backBtn">&amp;Indietro</String>
+  <String Id="nextBtn">A&amp;vanti ></String>
+
+</WixLocalization>

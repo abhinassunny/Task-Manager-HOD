@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1034</String>
+
+  <String Id="title">Configuración de Java - Carpeta de Destino</String>
+  <String Id="header">Carpeta de Destino</String>
+  <String Id="description">Haga clic en "Cambiar" para instalar Java en otra carpeta.</String>
+  <String Id="installTo">Instalar en:</String>
+  <String Id="notemptyFolder">Esta carpeta no está vacía. Seleccione una carpeta vacía.</String>
+  <String Id="semicolonInPath">Las rutas de acceso que incluyen punto y coma no están soportadas para este producto.</String>
+  <String Id="networkdrive">Esta carpeta está en una unidad de red. Seleccione una unidad local.</String>
+  <String Id="pathtooshort">La ruta de la carpeta es demasiado corta. Seleccione una carpeta con una ruta más larga.</String>
+  <String Id="changeFolderBtn">&amp;Cambiar...</String>
+  <String Id="backBtn">&lt; &amp;Atrás</String>
+  <String Id="nextBtn">&amp;Siguiente ></String>
+
+</WixLocalization>

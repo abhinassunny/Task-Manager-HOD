@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java 설치 - 시작</String>
+  <String Id="header">Java 시작 - 업데이트된 라이센스 조항</String>
+  <String Id="description1">
+      이 버전의 소프트웨어에 적용되는 라이센스 조항이 변경되었습니다.
+  </String>
+   <String Id="license">
+      [업데이트된 라이센스 계약서]
+  </String>
+  <String Id="description2">
+      이 버전의 Java Runtime은 사용자의 개인용(비상업용) 데스크톱 및 랩톱 용도로만 사용이 허가되었습니다.
+  </String>
+  <String Id="description3">
+      이 소프트웨어를 상업용으로 사용하기 위해서는 Oracle 또는 해당 소프트웨어 공급업체에서 제공하는 별도의 라이센스가 필요합니다.
+  </String>
+  <String Id="description4">
+      라이센스 계약에 동의하고 지금 Java를 설치하려면 [설치]를 누르고, 시스템에서 제거하려면 [제거]를 누르십시오.
+  </String>
+  <String Id="personalInfo">
+      설치 프로세스 중에는 개인 정보가 수집되지 않습니다.
+      [수집되는 정보에 대한 세부정보]
+  </String>
+
+  <String Id="changeFolder">대상 폴더 변경</String>
+  <String Id="installBtn">설치</String>
+  <String Id="removeBtn">제거(&amp;R)</String>
+
+</WixLocalization>

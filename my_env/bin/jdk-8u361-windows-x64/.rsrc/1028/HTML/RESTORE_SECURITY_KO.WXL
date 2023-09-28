@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java 설치 - 보안 프롬프트 복원</String>
+  <String Id="header">Java 보안 프롬프트 복원</String>
+  <String Id="description">
+      '이 메시지를 다시 표시 안함' 옵션을 선택할 때 일부 Java 보안 프롬프트가 숨겨졌습니다.
+	  30일마다 이러한 프롬프트를 복원하여 개인 정보의 보안을 향상시킬 수 있습니다.
+  </String>
+  <String Id="moreInfo">
+      [추가 정보]
+  </String>
+  <String Id="restoreCheckbox">Java 보안 프롬프트 복원  </String>
+  <String Id="backBtn">뒤로(&amp;B)</String>
+  <String Id="nextBtn">다음(&amp;N) ></String>
+
+</WixLocalization>

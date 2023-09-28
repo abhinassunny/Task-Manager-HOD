@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+    <String Id="title">Java 安裝 - 完成</String>
+    <String Id="uninstalledVersionsText">
+        已順利解除安裝過時的 Java 版本
+    </String>
+    <String Id="remainingVersionsText">
+        在您的系統偵測到過時的版本
+    </String>
+    <String Id="closeBtn">下一步(&amp;N) ></String>
+    <String Id="securityInfo">
+        在您的系統保留過時的 Java 版本可能會造成安全危機。請按一下 [此處] 取得更多資訊，及如何移除過時版本的指示。
+    </String>
+    <String Id="uninstalledListNone">
+        無
+    </String>
+    <String Id="remainingListNone">
+        無
+    </String>
+</WixLocalization>

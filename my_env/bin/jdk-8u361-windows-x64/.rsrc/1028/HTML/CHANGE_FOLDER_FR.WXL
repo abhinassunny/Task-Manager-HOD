@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="fr" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1036</String>
+
+  <String Id="title">Installation de Java - Dossier de destination</String>
+  <String Id="header">Dossier de destination</String>
+  <String Id="description">Cliquez sur Modifier pour installer Java dans un dossier différent.</String>
+  <String Id="installTo">Installer dans :</String>
+  <String Id="notemptyFolder">Ce dossier n'est pas vide. Sélectionnez un dossier vide.</String>
+  <String Id="semicolonInPath">Ce produit ne prend pas en charge les chemins contenant un point-virgule.</String>
+  <String Id="networkdrive">Ce dossier se trouve sur un lecteur réseau. Sélectionnez un lecteur local.</String>
+  <String Id="pathtooshort">Le chemin du dossier est trop court. Sélectionnez un dossier avec un chemin plus long.</String>
+  <String Id="changeFolderBtn">&amp;Modifier...</String>
+  <String Id="backBtn">&lt; &amp;Précédent</String>
+  <String Id="nextBtn">Suiva&amp;nt ></String>
+
+</WixLocalization>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+    <String Id="title">Java 安裝 - 解除安裝過時的版本</String>
+    <String Id="headerText">偵測到過時的 Java 版本</String>
+    <String Id="description">
+        在您的系統中保留過時的 Java 版本可能會帶來安全性風險。
+    </String>
+    <String Id="uninstallInfo">
+        按一下「解除安裝」即可解除安裝選取的 Java 版本。
+    </String>
+    <String Id="moreInfo">
+        警告: 解除安裝過時的 Java 版本可能會導致部分較舊的 Java
+        應用程式再也無法執行。[更多資訊]
+    </String>
+    <String Id="laterBtn">現在不要(&amp;N)</String>
+    <String Id="uninstallBtn">解除安裝(&amp;U) ></String>
+</WixLocalization>

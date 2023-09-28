@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+    <String Id="title">Java 설치 - 진행률</String>
+    <String Id="statusLbl">상태</String>
+    <String Id="uninstallStatusFormat">%JRE_NAME% 설치 해제 중(%NUM%/%TOTAL%개의 Java 버전)</String>
+    <String Id="completeStatus">설치 해제 완료</String>
+    <String Id="viewListLink">
+        [설치 해제된 오래된 버전 목록 보기]
+    </String>
+    <String Id="nextBtn">다음(&amp;N) ></String>
+</WixLocalization>

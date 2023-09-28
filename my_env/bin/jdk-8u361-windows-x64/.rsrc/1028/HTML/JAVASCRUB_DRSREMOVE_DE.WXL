@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Java-Setup - Mehrere Java-Versionen erkannt</String>
+  <String Id="headerText">Mehrere Java-Versionen erkannt</String>
+  <String Id="description">
+        Folgende Java-Versionen wurden auf Ihrem Rechner erkannt. Ihr System wird
+        von der IT-Abteilung Ihres Unternehmens verwaltet und benötigt diese Versionen möglicherweise.
+  </String>
+  <String Id="nextBtn">&amp;Schließen</String>
+</WixLocalization>

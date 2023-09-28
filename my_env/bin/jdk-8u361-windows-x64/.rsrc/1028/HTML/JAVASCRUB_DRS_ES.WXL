@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Configuración de Java - Se han detectado varias versiones de Java</String>
+  <String Id="headerText">Varias versiones de Java detectadas</String>
+  <String Id="description">
+        Se han encontrado las siguientes versiones de Java en su máquina. Su sistema está
+        gestionado por el departamento de TI de su empresa y puede que necesite estas versiones.
+  </String>
+  <String Id="nextBtn">&amp;Siguiente ></String>
+</WixLocalization>

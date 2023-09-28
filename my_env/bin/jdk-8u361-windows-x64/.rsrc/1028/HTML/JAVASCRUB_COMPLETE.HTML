@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+addOnloadCallback( function () {
+    getElement("closeBtn").onclick = function () {
+        host.notify("next");
+    }
+})
+
+function addListItem(div, text) {
+    var node = document.createElement('div');
+    node.className = 'segment-item';
+    node.appendChild(document.createTextNode(text));
+    document.getElementById(div).appendChild(node);
+}
+
+function showElement(element, v) {
+    getElement(element).style.visibility = v ? 'visible' : 'hidden';
+}
+
+urls = {
+    securityInfo: "https://java.com/olderversions"
+}
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>#header_ctnr {
+    display: none;
+}
+
+#container {
+    height: 120pt;
+    overflow-y: auto;
+}
+.segment {
+    margin-top: 10pt;
+    margin-bottom: 2pt;
+    font-weight: bold;
+    text-align: left;
+}
+.segment-item {
+    margin-left: 10pt;
+    font-weight: normal;
+    text-align: left;
+}
+
+.text-item {
+    margin-top: 10pt;
+    text-align: left;
+}
+
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+﻿<div id="main.src">
+  <div id="container">
+    <div id="uninstalledVersionsText" class="segment"></div>
+    <div id="uninstalledList"></div>
+    <div id="uninstalledListNone" class="segment-item"></div>
+    <div id="remainingVersionsText" class="segment"></div>
+    <div id="remainingList"></div>
+    <div id="remainingListNone" class="segment-item"></div>
+  </div>
+  <div id="securityInfo" class="text-item"></div>
+</div>
+
+<div id="footer_right.src">
+  <button id="closeBtn"></button>
+</div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

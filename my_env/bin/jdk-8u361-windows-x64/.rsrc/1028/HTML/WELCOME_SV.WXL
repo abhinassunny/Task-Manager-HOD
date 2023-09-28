@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1053</String>
+
+  <String Id="title">Java-installation - välkommen</String>
+  <String Id="header">Välkommen till Java - Uppdaterade licensvillkor</String>
+  <String Id="description1">
+      Villkoren som den här programvaruversionen är licensierad för har ändrats.
+  </String>
+   <String Id="license">
+      [Uppdaterat licensavtal]
+  </String>
+  <String Id="description2">
+      Den här versionen av Java Runtime är endast licensierad för personligt (icke-kommersiellt) dator- och laptopbruk.
+  </String>
+  <String Id="description3">
+      Kommersiellt bruk av den här programvaran kräver en separat licens från Oracle eller en programvaruleverantör.
+  </String>
+  <String Id="description4">
+      Klicka på Installera för att acceptera avtalet och installera Java nu eller klicka på Ta bort för att avinstallera det från ditt system.
+  </String>
+  <String Id="personalInfo">
+      Inga personuppgifter registreras under installationen.
+      [Detaljer om den information vi samlar in]
+  </String>
+
+  <String Id="changeFolder">Ändra destinationsmapp</String>
+  <String Id="installBtn">Installera</String>
+  <String Id="removeBtn">&amp;Ta bort</String>
+
+</WixLocalization>

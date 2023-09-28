@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 - 進度</String>
+  <String Id="statusLbl">狀態</String>
+  <String Id="status">正在安裝 Java</String>
+
+</WixLocalization>

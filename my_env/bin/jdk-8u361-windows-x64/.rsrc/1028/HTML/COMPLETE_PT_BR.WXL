@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Instalação do Java - Concluída</String>
+  <String Id="headerJava">A instalação do Java foi concluída com êxito</String>
+  <String Id="headerJavaWithFullStop">A instalação do Java foi concluída com êxito.</String>
+  <String Id="headerGoogle">A instalação do Java e da Barra de Ferramentas do Google foi concluída com êxito</String>
+  <String Id="headerYahoo">A instalação do Java e da Barra de Ferramentas do Yahoo! foi concluída com êxito</String>
+  <String Id="headerBing">A instalação do Java e da Barra de Ferramentas do Bing foi concluída com êxito</String>
+
+  <String Id="sponsorCarbo">A instalação do Carbonite começará logo.</String>
+  <String Id="sponsorMcAfee">A instalação do McAfee começará logo.</String>
+  <String Id="sponsorAsk">A instalação da(s) Extensão(ões) Ask começará logo.</String>
+  <String Id="sponsorGeneric">A oferta do patrocinador será instalada em breve.</String>
+
+  <String Id="noteOnUpdates">
+      Quando as atualizações do Java estiverem disponíveis, você será avisado.
+      Sempre instale as atualizações para obter os últimos aperfeiçoamentos de desempenho e segurança.
+  </String>
+  <String Id="updateLink">[Mais informações sobre definições de atualização]</String>
+  <String Id="securityNote">O nível de segurança foi definido para um valor mínimo Alto.</String>
+  <String Id="securityLink">[Mais informações]</String>
+  <String Id="noteVerify">
+      Quando você clicar em Fechar, o browser será aberto, para que você possa verificar se o Java está funcionando.
+  </String>
+  <String Id="restartBrowser">
+      Reiniciar meu browser agora para concluir a instalação (Salve seu trabalho antes de clicar em "Fechar")
+  </String>
+  <String Id="backBtn">&amp;Voltar</String>
+  <String Id="closeBtn">&amp;Fechar</String>
+
+</WixLocalization>

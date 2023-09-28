@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1031</String>
+
+  <String Id="title">Java-Setup - Zielordner</String>
+  <String Id="header">Zielordner</String>
+  <String Id="description">Klicken Sie auf "Ändern", um Java in einem anderen Ordner zu installieren.</String>
+  <String Id="installTo">Installieren in:</String>
+  <String Id="notemptyFolder">Dieser Ordner ist nicht leer. Wählen Sie einen leeren Ordner aus.</String>
+  <String Id="semicolonInPath">Ein Pfad, der ein Semikolon enthält, wird bei diesem Produkt nicht unterstützt.</String>
+  <String Id="networkdrive">Dieser Ordner befindet sich auf einem Netzwerklaufwerk. Wählen Sie ein lokales Laufwerk aus.</String>
+  <String Id="pathtooshort">Der Ordnerpfad ist zu kurz. Bitte wählen Sie einen Ordner mit längerem Pfad aus.</String>
+  <String Id="changeFolderBtn">&amp;Ändern...</String>
+  <String Id="backBtn">&lt; &amp;Zurück</String>
+  <String Id="nextBtn">&amp;Weiter ></String>
+
+</WixLocalization>

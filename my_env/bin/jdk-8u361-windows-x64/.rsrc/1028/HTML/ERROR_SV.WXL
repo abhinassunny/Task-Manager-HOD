@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture=" sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1053</String>
+
+  <String Id="title">Java Setup – Ej slutförd</String>
+  <String Id="headerInstall">Java-installationen slutfördes inte</String>
+  <String Id="headerUpdate">Java-uppdateringen slutfördes inte</String>
+  <String Id="errorCodeFormat">Felkod: %1</String>
+  <String Id="helpText">Vänd dig till Hjälp för Java där du hittar information om felsökning, eller kontakta systemadministratören.</String>
+  <String Id="helpLink">[Gå till Hjälp för Java]</String>
+  <String Id="closeBtn">St&amp;äng</String>
+
+</WixLocalization>

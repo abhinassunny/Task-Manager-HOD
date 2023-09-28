@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+    <String Id="title">Javaセットアップ - 最新でないバージョンのアンインストール</String>
+    <String Id="headerText">最新でないJavaのバージョンが検出されました</String>
+    <String Id="description">
+        システムに最新でないJavaのバージョンをインストールしたままにしておくと、セキュリティ・リスクが生じる可能性があります。
+    </String>
+    <String Id="uninstallInfo">
+        選択したJavaのバージョンをアンインストールするには、「アンインストール」をクリックします。
+    </String>
+    <String Id="moreInfo">
+        警告: 最新でないバージョンのJavaをアンインストールすると、一部の古いJavaアプリケーションが
+        実行できなくなる可能性があります。[詳細情報]
+    </String>
+    <String Id="laterBtn">後で行う(&amp;N)</String>
+    <String Id="uninstallBtn">アンインストール(&amp;U) ></String>
+</WixLocalization>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+    <String Id="title">Java 部署高速缓存</String>
+    <String Id="headerText">Java 部署高速缓存</String>
+    <String Id="description">
+        Java 会维护一个高速缓存，该高速缓存可加快重新加载常用 Java 程序的速度，并可以存储跟踪和日志文件。当您删除 Java 运行时的时候，建议同时删除此高速缓存，以便释放计算机上的空间。
+    </String>
+    <String Id="question">
+        是否要删除 Java 高速缓存（建议删除）？
+    </String>
+    <String Id="learnmore">
+        了解有关 [Java 部署高速缓存] 的详细信息
+    </String>
+    <String Id="disagreeBtn">否(&amp;N)</String>
+    <String Id="agreeBtn">是(&amp;Y)</String>
+</WixLocalization>

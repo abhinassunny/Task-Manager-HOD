@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java-Setup - Fortschritt</String>
+    <String Id="statusLbl">Status</String>
+    <String Id="uninstallStatusFormat">%JRE_NAME% (%NUM% von %TOTAL% Java-Versionen) wird deinstalliert</String>
+    <String Id="completeStatus">Deinstallation abgeschlossen</String>
+    <String Id="viewListLink">
+        [Liste mit veralteten Versionen anzeigen, die deinstalliert wurden]
+    </String>
+    <String Id="nextBtn">&amp;Weiter ></String>
+</WixLocalization>

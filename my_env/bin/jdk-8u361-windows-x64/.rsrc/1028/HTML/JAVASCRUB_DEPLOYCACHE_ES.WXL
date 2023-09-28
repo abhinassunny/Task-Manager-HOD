@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Caché de despliegue de Java</String>
+    <String Id="headerText">Caché de despliegue de Java</String>
+    <String Id="description">
+        Java conserva la caché para acelerar la carga de los programas Java de uso frecuente y para almacenar archivos log y de rastreo. Puesto que va a eliminar Java Runtime, es recomendable eliminar también la caché correspondiente para liberar espacio en la computadora.
+    </String>
+    <String Id="question">
+        ¿Desea eliminar la caché de Java (recomendado)?
+    </String>
+    <String Id="learnmore">
+        Más información sobre la [caché de despliegue de Java]
+    </String>
+    <String Id="disagreeBtn">&amp;No</String>
+    <String Id="agreeBtn">&amp;Sí</String>
+</WixLocalization>

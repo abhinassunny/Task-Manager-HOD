@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="fr" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1036</String>
+
+  <String Id="title">Installation de Java - Restaurer les invites de sécurité</String>
+  <String Id="header">Restaurer les invites de sécurité Java</String>
+  <String Id="description">
+      Certaines invites de sécurité Java ont été masquées lorsque vous avez sélectionné l'option Ne plus afficher ce message.
+	  Vous pouvez améliorer la sécurité de vos informations personnelles en restaurant ces invites tous les 30 jours.
+  </String>
+  <String Id="moreInfo">
+      [Plus d'informations]
+  </String>
+  <String Id="restoreCheckbox">Restaurer les invites de sécurité Java</String>
+  <String Id="backBtn">&amp;Précédent</String>
+  <String Id="nextBtn">Suiva&amp;nt ></String>
+
+</WixLocalization>

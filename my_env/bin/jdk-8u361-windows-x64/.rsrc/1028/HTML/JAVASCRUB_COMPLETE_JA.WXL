@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+    <String Id="title">Javaセットアップ - 完了</String>
+    <String Id="uninstalledVersionsText">
+        最新でないバージョンのJavaが正常にアンインストールされました
+    </String>
+    <String Id="remainingVersionsText">
+        最新でないバージョンがシステムに残っていることが検出されました
+    </String>
+    <String Id="closeBtn">次(&amp;N) ></String>
+    <String Id="securityInfo">
+        最新でないバージョンのJavaがシステムにインストールされたままにしておくと、セキュリティ・リスクが生じる可能性があります。最新でないバージョンの削除方法の詳細と手順は、[ここ]をクリックしてください。
+    </String>
+    <String Id="uninstalledListNone">
+        なし
+    </String>
+    <String Id="remainingListNone">
+        なし
+    </String>
+</WixLocalization>

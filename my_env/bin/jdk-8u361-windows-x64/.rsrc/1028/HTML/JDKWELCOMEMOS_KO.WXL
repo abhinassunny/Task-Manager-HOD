@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java SE Development Kit 8 - 설치</String>
+  <String Id="headerJava">
+    이 마법사는 %1의 설치 과정을 안내합니다.
+  </String>
+  <String Id="description1">
+    이 버전의 Java를 사용하려면 Oracle이나 인증을 받은 Oracle 파트너사 또는 인증을 받은 타사 소프트웨어 제공자가 제공하는 Oracle Java SE 라이센스가 있어야 합니다. 적절한 라이센스 사용 여부를 확인하는 것은 사용자의 책임입니다. 이에 동의하면 [다음]을 눌러 설치 프로세스를 계속하십시오.
+  </String>
+  <String Id="description2">
+    라이센스가 없는 경우 [취소]를 눌러 설치 프로세스를 정지하고 이전 Java 버전을 제거할지 여부를 선택하십시오.
+  </String>
+  <String Id="personalInfo">
+      설치 프로세스 중에는 개인 정보가 수집되지 않습니다.
+      [수집되는 정보에 대한 세부정보]
+  </String>
+  <String Id="installBtn">다음</String>
+  <String Id="cancelBtn">취소</String>
+
+</WixLocalization>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java 설치 - 대상 폴더</String>
+  <String Id="header">대상 폴더</String>
+  <String Id="description">Java를 다른 폴더에 설치하려면 "변경"을 누르십시오.</String>
+  <String Id="installTo">설치 위치:</String>
+  <String Id="notemptyFolder">이 폴더는 비어 있지 않습니다. 빈 폴더를 선택하십시오.</String>
+  <String Id="semicolonInPath">세미콜론이 포함된 경로는 이 제품에 지원되지 않습니다.</String>
+  <String Id="networkdrive">이 폴더는 네트워크 드라이브에 있습니다. 로컬 드라이브를 선택하십시오.</String>
+  <String Id="pathtooshort">폴더 경로가 너무 짧습니다. 경로가 더 긴 폴더를 선택하십시오.</String>
+  <String Id="changeFolderBtn">변경(&amp;C)...</String>
+  <String Id="backBtn">&lt; 뒤로(&amp;B)</String>
+  <String Id="nextBtn">다음(&amp;N) ></String>
+
+</WixLocalization>

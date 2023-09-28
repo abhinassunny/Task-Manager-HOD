@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1034</String>
+
+  <String Id="title">Configuración de Java - Plugin de explorador desactivado</String>
+  <String Id="header">El contenido Java está desactivado en los exploradores web</String>
+  <String Id="description">Para activarlo, seleccione 'Activar el contenido Java en el explorador' en el separador Seguridad del panel de control de Java.</String>
+  <String Id="nextBtn">&amp;Siguiente ></String>
+
+</WixLocalization>

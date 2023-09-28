@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+
+var updateversion;
+
+addOnloadCallback( function () {
+
+    var formatStr = getElement("headerJava").innerHTML;
+    var productname = "JDK 8 Update " + updateversion;
+    getElement("headerJava").innerText = formatStr.replace("%1", productname);
+
+    getElement("cancelBtn").onclick = function () {
+        host.notify("cancel")
+    }
+
+    getElement("installBtn").onclick = function () {
+        host.notify("next")
+    }
+})
+
+function setUpdateVersion(version) {
+   updateversion = version;
+}
+
+function withJMC(v) {
+    // NOP by design
+}
+
+urls = {
+    personalInfo: "https://java.com/data/",
+    license: "https://java.com/otnlicense/"
+}
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>.segment {
+  margin-bottom:16pt;
+}
+
+input {
+  margin-left: 8pt;
+}
+
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+﻿<div id="header.src">
+  <table id="headerCtnr"><tr>
+    <td>
+      <span id="headerText">
+        <span id="headerJava"></span>
+      </span>
+    </td>
+  </tr></table>
+</div>
+
+<div id="main.src">
+  <div class ="segment">
+    <div id="description1"></div>
+  </div>
+  <div class ="segment">
+    <div id="description2"></div>
+  </div>
+  <div class ="segment">
+    <div id="personalInfo" class="segment"></div>
+  </div>
+</div>
+
+<div id="footer_right.src">
+  <button id="installBtn"></button>
+  <button id="cancelBtn"></button>
+</div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

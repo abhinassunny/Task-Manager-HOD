@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - 完了</String>
+  <String Id="headerJava">Javaが正常にインストールされました</String>
+  <String Id="headerJavaWithFullStop">Javaが正常にインストールされました</String>
+  <String Id="headerGoogle">JavaおよびGoogleツールバーが正常にインストールされました</String>
+  <String Id="headerYahoo">JavaおよびYahoo!ツールバーが正常にインストールされました</String>
+  <String Id="headerBing">JavaおよびBingツールバーが正常にインストールされました</String>
+
+  <String Id="sponsorCarbo">Carboniteのインストールがまもなく開始されます。</String>
+  <String Id="sponsorMcAfee">McAfeeのインストールがまもなく開始されます。</String>
+  <String Id="sponsorAsk">Ask拡張機能がまもなくインストールされます。</String>
+  <String Id="sponsorGeneric">スポンサ・オファーがまもなくインストールされます。</String>
+
+  <String Id="noteOnUpdates">
+      Javaの更新が可能になると、プロンプトが表示されます。
+      必ず更新をインストールして、パフォーマンスおよびセキュリティの最新の改善を反映させてください。
+  </String>
+  <String Id="updateLink">[更新設定の詳細]</String>
+  <String Id="securityNote">セキュリティ・レベルは最小限の値である「高」に設定されています。</String>
+  <String Id="securityLink">[詳細情報]</String>
+  <String Id="noteVerify">「閉じる」をクリックするとブラウザが開くので、Javaが動作していることを確認できます。</String>
+  <String Id="restartBrowser">
+      インストールを完了するためにブラウザを今すぐ再起動する(作業内容を保存してから「閉じる」をクリックしてください)
+  </String>
+  <String Id="backBtn">戻る(&amp;B)</String>
+  <String Id="closeBtn">閉じる(&amp;C)</String>
+
+</WixLocalization>

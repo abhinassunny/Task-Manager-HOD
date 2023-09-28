@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 – 歡迎使用</String>
+  <String Id="header">歡迎使用 Java - 更新授權條款</String>
+  <String Id="description1">
+      此版本軟體的授權條款已經變更。
+  </String>
+   <String Id="license">
+      [更新授權合約]
+  </String>
+  <String Id="description2">
+      此版本的 Java Runtime 僅授權在個人 (非商業) 桌上型電腦與膝上型電腦上使用。
+  </String>
+  <String Id="description3">
+      若要將此軟體用於商業方面，需要向 Oracle 或軟體廠商取得個別授權。
+  </String>
+  <String Id="description4">
+      按一下「安裝」即代表接受授權合約並會立即開始安裝 Java，或按一下「移除」以解除安裝系統上的 Java。
+  </String>
+  <String Id="personalInfo">
+      安裝過程中不會收集任何個人資訊。
+      [我們所收集資訊的詳細資訊]
+  </String>
+
+  <String Id="changeFolder">變更目的地資料夾</String>
+  <String Id="installBtn">安裝</String>
+  <String Id="removeBtn">移除(&amp;R)</String>
+
+</WixLocalization>

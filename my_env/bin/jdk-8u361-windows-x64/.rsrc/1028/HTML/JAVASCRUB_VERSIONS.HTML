@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+addOnloadCallback( function () {
+    getElement("laterBtn").onclick = function () {
+       host.notify("cancel")
+    }
+
+    getElement("uninstallBtn").onclick = function () {
+        host.notify("next")
+    }
+
+    getElement("jreVersionList").onclick = function () {
+        var checkboxes = document.getElementsByTagName("input");
+        var cbstatus = "";
+
+        for (var i = 0; i < checkboxes.length; i++)
+            cbstatus += ( checkboxes[i].checked ) ? '1' : '0';
+
+        updateListItems(cbstatus);
+        host.notify("checkbox_clicked", cbstatus);
+    }
+})
+
+function updateListItems(cbstatus) {
+    for (var i = 0; i < cbstatus.length; i++) {
+        var elemId = 'checkbox' + i;
+        var div = document.getElementById(elemId);
+        // make text bold
+        var className = 'content';
+        if( i % 2 == 1 ) className += ' odd';
+        if (cbstatus.charAt(i) == '1') {
+            className += ' bold';
+            document.getElementById(i).checked = true;
+        }
+        div.className = className;
+    }
+}
+
+function addListItem(id, text) {
+    // create checkbox
+    var checkbox=document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id=id;
+
+    // create text label for the checkbox
+    var label = document.createElement('label');
+    label.htmlFor = id;
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(text));
+
+    // create parent div and append checkbox and text
+    var div = document.createElement('div');
+    div.id = 'checkbox' + id;
+    div.appendChild(label);
+
+    document.getElementById('jreVersionList').appendChild(div);
+}
+
+urls = {
+    moreInfo: "https://java.com/olderversions"
+}
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>#main {
+  display: block;
+  padding: 2pt 24pt;
+  text-align: center;
+  font-size: 10pt;
+}
+
+#headerCtnr {
+    width: auto;
+}
+
+#headerText {
+    margin-left: 12pt;
+}
+
+.segment {
+  text-align: left;
+}
+
+.segment-smaller {
+  text-align: left;
+  font-size: 9pt;
+  margin-top: 10pt;
+}
+
+#listBoxCtrl {
+  border: 2pt solid #ccc;
+  overflow-y: scroll;
+  float: center;
+  height: 60pt;
+}
+
+.content  {
+  text-align: left;
+}
+.odd {
+  background: #e7e5d5;
+}
+
+.bold {
+  font-weight: bold;
+}
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+﻿<div id="header.src">
+    <table id="headerCtnr"><tr>
+        <td><img alt="" src="warning32.png"/></td>
+        <td>
+            <span id="headerText"></span>
+        </td>
+    </tr></table>
+</div>
+<div id="main.src">
+  <div id="description" class="segment"></div>
+  <div id="listBoxCtrl">
+    <div id="jreVersionList"></div>
+  </div>
+  <div id="uninstallInfo" class="segment"></div>
+  <div id="moreInfo" class="segment-smaller"></div>
+</div>
+
+<div id="footer_right.src">
+  <button id="laterBtn"></button>
+  <button id="uninstallBtn"></button>
+</div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Cache de Implantação do Java</String>
+    <String Id="headerText">Cache de Implantação do Java</String>
+    <String Id="description">
+        O Java mantém um cache para acelerar o recarregamento de programas Java usados comumente, e para armazenar arquivos de rastreamento e registro. Como você está removendo o Java Runtime, recomendamos também a remoção deste cache para liberar espaço no seu computador.
+    </String>
+    <String Id="question">
+        Gostaria de remover o Cache Java (recomendado)?
+    </String>
+    <String Id="learnmore">
+        Saiba mais sobre o [Cache de Implantação do Java]
+    </String>
+    <String Id="disagreeBtn">&amp;Não</String>
+    <String Id="agreeBtn">&amp;Sim</String>
+</WixLocalization>

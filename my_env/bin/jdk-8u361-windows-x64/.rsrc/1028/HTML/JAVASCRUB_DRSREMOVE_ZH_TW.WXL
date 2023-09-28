@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="title">Java 安裝 - 偵測到多個 Java 版本</String>
+  <String Id="headerText">偵測到多個 Java 版本</String>
+  <String Id="description">
+        在您的機器上發現下列 Java 版本。您的系統是由
+        貴組織的 IT 部門管理，且可能需要這些版本。
+  </String>
+  <String Id="nextBtn">關閉(&amp;C)</String>
+</WixLocalization>

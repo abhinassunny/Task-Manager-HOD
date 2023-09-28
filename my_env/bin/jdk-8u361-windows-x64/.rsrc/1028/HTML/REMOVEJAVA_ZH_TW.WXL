@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="title">請移除過時的 Java 版本</String>
+  <String Id="Header">請移除過時的 Java 版本</String>
+  <String Id="Description">
+    此電腦上的 Java 軟體不是最新版本，未來將不再提供更新。
+  </String>
+  <String Id="StillUse">
+      系統上的 Java 版本若不是最新的，有可能會帶來安全風險。
+  </String>
+  <String Id="Outofdatewarning">移除之後，若仍需要 Java 以執行桌面應用程式，請造訪 [java.com] 以取得建議的版本。</String>
+  <String Id="removeBtn">移除(&amp;R) ></String>
+</WixLocalization>

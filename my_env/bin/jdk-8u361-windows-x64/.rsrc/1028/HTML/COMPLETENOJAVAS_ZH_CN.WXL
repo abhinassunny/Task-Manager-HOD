@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 安装 - 完成</String>
+  <String Id="headerJava">在系统中未检测到 Java 安装</String>
+  <String Id="closeBtn">关闭(&amp;C)</String>
+
+</WixLocalization>

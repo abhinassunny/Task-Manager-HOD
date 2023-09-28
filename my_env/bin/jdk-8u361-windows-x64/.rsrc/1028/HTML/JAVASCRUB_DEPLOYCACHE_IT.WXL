@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java Deployment Cache</String>
+    <String Id="headerText">Java Deployment Cache</String>
+    <String Id="description">
+        Java conserva una cache per velocizzare il ricaricamento di programmi Java comunemente usati e per memorizzare file di trace e di log. Poiché si sta rimuovendo Java runtime, si consiglia di rimuovere anche questa cache per liberare spazio sul PC.
+    </String>
+    <String Id="question">
+        Si desidera rimuovere la cache Java (operazione consigliata)?
+    </String>
+    <String Id="learnmore">
+        Acquisire ulteriori informazioni su [Java Deployment Cache]
+    </String>
+    <String Id="disagreeBtn">&amp;No</String>
+    <String Id="agreeBtn">&amp;Sì</String>
+</WixLocalization>

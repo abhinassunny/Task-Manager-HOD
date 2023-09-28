@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+addOnloadCallback( function () {
+
+    getElement("changeFolderBtn").onclick = function () {
+        host.notify("browse")
+    }
+
+    getElement("nextBtn").onclick = function () {
+        host.notify("next")
+    }
+
+    getElement("backBtn").onclick = function () {
+        host.notify("back")
+    }
+
+})
+
+
+function showBackButton(v) {
+    getElement("backBtn").style.visibility = v ? 'visible' : 'hidden';
+}
+
+function showErrorMsg(element) {
+    getElement(element).style.display =  'block' ;
+    getElement("nextBtn").disabled = true;
+}
+
+function cleanErrorMsg() {
+    getElement("semicolonInPath").style.display =  'none' ;
+    getElement("notemptyFolder").style.display =  'none';
+    getElement("networkdrive").style.display =  'none' ;
+    getElement("pathtooshort").style.display =  'none';
+    getElement("nextBtn").disabled = false;
+}
+
+function showErrorMsg(element) {
+    getElement(element).style.display =  'block' ;
+    getElement("nextBtn").disabled = true;
+}
+
+function cleanErrorMsg() {
+    getElement("semicolonInPath").style.display =  'none' ;
+    getElement("notemptyFolder").style.display =  'none';
+    getElement("networkdrive").style.display =  'none' ;
+    getElement("pathtooshort").style.display =  'none';
+    getElement("nextBtn").disabled = false;
+}
+
+function setFolder(dir) {
+    getElement("installToFolder").innerText = dir;
+}
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>#main div,#main span {
+  margin: 0;
+  text-align: left;
+}
+
+#main button {
+  margin: 0;
+  text-align: center;
+}
+
+div#description {
+  margin-bottom: 18pt;
+}
+
+#changeFolderBtn, #installTo {
+  display: block;
+}
+
+#changeFolderBtn {
+  float: right;
+  position: relative;
+}
+
+#installTo {
+  float: left;
+}
+
+#installToFolder {
+  clear: both;
+  float: left;
+  font-size: 9pt;
+}
+
+div#notemptyFolder {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+div#semicolonInPath {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+div#networkdrive {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+div#pathtooshort {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+div#notemptyFolder {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+div#semicolonInPath {
+  margin-bottom: 5pt;
+  color: red;
+}
+
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+???<div id="main.src">
+  <div id="description" class="segment"></div>
+  <div id="notemptyFolder" class="segment hidden"></div>
+  <div id="semicolonInPath" class="segment hidden"></div>
+  <div id="notemptyFolder" class="segment hidden"></div>
+  <div id="semicolonInPath" class="segment hidden"></div>
+  <div id="networkdrive" class="segment hidden"></div>
+  <div id="pathtooshort" class="segment hidden"></div>
+  <div class="segment">
+    <span id="installTo"></span>
+    <span id="installToFolder">c:\Program Files\Java\jre9\</span>
+    <button id="changeFolderBtn"></button>
+  </div>
+</div>
+
+<div id="footer_right.src">
+  <button id="backBtn"></button>
+  <button id="nextBtn"></button>
+</div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

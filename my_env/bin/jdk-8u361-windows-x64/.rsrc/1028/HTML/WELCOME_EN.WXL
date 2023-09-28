@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id='lang'>1033</String>
+
+  <String Id='title'>Java Setup - Welcome</String>
+  <String Id='header'>Welcome to Java - Updated License Terms</String>
+  <String Id='description1'>
+      The terms under which this version of the software is licensed have changed.
+  </String>
+   <String Id='license'>
+      [Updated License Agreement]
+  </String>
+  <String Id='description2'>
+      This version of the Java Runtime is licensed only for your personal (non-commercial) desktop and laptop use.
+  </String>
+  <String Id='description3'>
+      Commercial use of this software requires a separate license from Oracle or from your software vendor.
+  </String>
+  <String Id='description4'>
+      Click Install to accept the license agreement and install Java now or click Remove to uninstall it from your system.
+  </String>
+  <String Id='personalInfo'>
+      No personal information is gathered as part of our install process.
+      [Details on the information we collect]
+  </String>
+
+  <String Id='changeFolder'>Change destination folder</String>
+  <String Id='installBtn'>Install</String>
+  <String Id='removeBtn'>&amp;Remove</String>
+
+</WixLocalization>

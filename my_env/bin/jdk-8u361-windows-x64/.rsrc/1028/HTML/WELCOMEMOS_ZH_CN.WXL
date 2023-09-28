@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 安装程序 - 欢迎使用</String>
+  <String Id="header">欢迎使用 Java</String>
+  <String Id="description">
+      此 Java 版本需要您拥有 Oracle、授权的 Oracle 合作伙伴或授权的第三方软件提供商提供的 Oracle Java SE 许可证。由您负责确定自身是否拥有相应的许可证。如果有，请单击“安装”以继续执行安装过程。
+  </String>
+  <String Id="description2">
+      如果您没有许可证，请单击“删除”以停止安装过程，并选择是否删除旧 Java 版本。
+  </String>
+  <String Id="personalInfo">
+      在我们的安装过程中，不会收集个人信息。
+      [有关我们所收集信息的详细信息]
+  </String>
+  <String Id="changeFolder">更改目标文件夹</String>
+  <String Id="installBtn">安装</String>
+  <String Id="removeBtn">删除(&amp;R)</String>
+
+</WixLocalization>

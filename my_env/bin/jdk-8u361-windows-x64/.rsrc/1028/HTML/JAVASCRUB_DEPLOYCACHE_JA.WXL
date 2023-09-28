@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+    <String Id="title">Javaデプロイメント・キャッシュ</String>
+    <String Id="headerText">Javaデプロイメント・キャッシュ</String>
+    <String Id="description">
+        Javaでは、よく使用されるJavaプログラムの再ロードを高速化し、トレース・ファイルおよびログ・ファイルを格納する目的で、キャッシュを保持しています。Javaランタイムを削除しようとしているため、このキャッシュも削除してコンピュータの領域を解放することをお薦めします。
+    </String>
+    <String Id="question">
+        Javaキャッシュを削除しますか(推奨)。
+    </String>
+    <String Id="learnmore">
+        [Javaデプロイメント・キャッシュ]の詳細
+    </String>
+    <String Id="disagreeBtn">いいえ(&amp;N)</String>
+    <String Id="agreeBtn">はい(&amp;Y)</String>
+</WixLocalization>

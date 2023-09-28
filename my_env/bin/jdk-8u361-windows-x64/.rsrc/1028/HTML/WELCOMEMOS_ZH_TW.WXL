@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 – 歡迎使用</String>
+  <String Id="header">歡迎使用 Java</String>
+  <String Id="description">
+      此版本的 Java 需有明確授予您使用 Oracle Java SE 產品之 Oracle、授權的 Oracle 合作夥伴或授權的第三方軟體提供者的授權方可使用。您必須自行判斷是否有適當的授權。如果確定擁有授權，請按一下「安裝」以繼續安裝程序。
+  </String>
+  <String Id="description2">
+      如果您沒有授權，請按一下「移除」以停止安裝程序，並選擇是否移除較舊的 Java 版本。
+  </String>
+  <String Id="personalInfo">
+      安裝過程中不會收集任何個人資訊。
+      [我們所收集資訊的詳細資訊]
+  </String>
+  <String Id="changeFolder">變更目的地資料夾</String>
+  <String Id="installBtn">安裝</String>
+  <String Id="removeBtn">移除(&amp;R)</String>
+
+</WixLocalization>

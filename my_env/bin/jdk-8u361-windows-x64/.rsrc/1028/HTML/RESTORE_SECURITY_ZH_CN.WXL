@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 设置 - 还原安全提示</String>
+  <String Id="header">还原 Java 安全提示</String>
+  <String Id="description">
+      选择了 '不再显示此消息' 选项后, 部分 Java 安全提示会隐藏。
+	  可以通过每 30 天还原这些提示来提高个人信息的安全性。
+  </String>
+  <String Id="moreInfo">
+      [详细信息]
+  </String>
+  <String Id="restoreCheckbox">还原 Java 安全提示</String>
+  <String Id="backBtn">上一步(&amp;B)</String>
+  <String Id="nextBtn">下一步(&amp;N) ></String>
+
+</WixLocalization>

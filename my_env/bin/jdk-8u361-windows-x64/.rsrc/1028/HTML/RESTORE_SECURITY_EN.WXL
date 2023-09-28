@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id='lang'>1033</String>
+
+  <String Id='title'>Java Setup - Restore Security Prompts</String>
+  <String Id='header'>Restore Java security prompts</String>
+  <String Id='description'>
+      Some Java security prompts have been hidden when you selected the 'Don't show this again' option.
+	  You can improve the security of your personal information by restoring these prompts every 30 days.
+  </String>
+  <String Id='moreInfo'>
+      [More information]
+  </String>
+  <String Id='restoreCheckbox'>
+      Restore Java security prompts
+  </String>
+  <String Id='backBtn'>&amp;Back</String>
+  <String Id='nextBtn'>&amp;Next &gt;</String>
+
+</WixLocalization>

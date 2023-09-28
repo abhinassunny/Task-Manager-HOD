@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HOD Portal</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css'>
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+<script  src="{{url_for('static',filename='js/script.js')}}"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{url_for('index')}}">HOD Portal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('index')}}"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('faculty_info')}}"><i class="fa-sharp fa-solid fa-user"></i> Faculty</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link active" href="{{url_for('archives')}}"><i class="fas fa-archive"></i> Archives</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('HOD_notifications')}}"><i class="fa fa-bell"></i> Notifications</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('logout')}}"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <br><br><br>
+    <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-2">
+            <div class="form">
+                <input type="text" class="form-control form-input-search" id="search" oninput="searchTable()" placeholder="Search task">
+                <i class="fa fa-search" style="color: #2699bd"></i>
+            </div>
+        </div>
+        <div class="col-7">
+        </div>
+    </div>
+    <br><br><br>
+    <div id="tasks" class="container">
+        {% for task in data %}
+		<div class="task" id="{{(task.title)|replace(' ','')}}">
+			<div class="task-title" style="font-size:x-large;" onclick="display(['{{task.title}}','{{task.start_date}}','{{task.end_date}}','{{task.description}}'])" >{{task.title}}</div>
+			<div class="task-icons">
+				<i class="fa-solid fa-repeat fa-xl" style="color: white" onclick="re_assign('{{task.title}}')"></i>
+			</div>
+		</div>
+        {% endfor %}
+	</div>
+    <div id="tasks_2" class="container" hidden>
+        {% for task in data %}
+		<div class="task" id="{{(task.title)|replace(' ','')}}">
+			<div class="task-title" style="font-size:x-large;" onclick="display(['{{task.title}}','{{task.start_date}}','{{task.end_date}}','{{task.description}}'])" >{{task.title}}</div>
+			<div class="task-icons">
+				<i class="fa-solid fa-repeat fa-xl" style="color: white" onclick="re_assign('{{task.title}}')"></i>
+			</div>
+		</div>
+        {% endfor %}
+	</div>
+    <script>
+        var prev="";
+        function display(task)
+        {
+            display_n();
+            if(prev=="" || prev!=task[0])
+            {
+                var task_=document.getElementById(task[0].replaceAll(' ',''));
+                var div1=document.createElement("div");
+                div1.id="div1";
+                var div2=document.createElement("div");
+                div2.classList.add("container");
+                div2.classList.add("display-details");
+                var para1=document.createElement("p");
+                para1.innerText="Start Date : "+task[1];
+                var para2=document.createElement("p");
+                para2.innerText="End Date : "+task[2];
+                var para3=document.createElement("p");
+                para3.innerText="Description : "+task[3];
+                var br=document.createElement("br");
+                div2.appendChild(para1);
+                div2.appendChild(para2);
+                div2.appendChild(para3);
+                div1.appendChild(div2);
+                div1.appendChild(br);
+                $(div1).insertAfter(task_);
+                prev=task[0];
+            }
+            else
+            {
+                prev="";
+            }
+        }
+
+        function display_n()
+        {
+            var elms = document.querySelectorAll("[id='div1']");
+            for(var i = 0; i < elms.length; i++) 
+            {
+                elms[i].innerHTML="";
+            }
+        }
+
+        function searchTable()
+        {
+            var y=document.getElementById("tasks_2");
+            var search=document.getElementById("search").value;
+            var pattern=new RegExp('^'+search.replace(" ",""),'i');
+            if(search=="")
+            {
+
+                y_copy=y.cloneNode(true);
+                y_copy.id="tasks";
+                y_copy.hidden=false;
+                var x=document.getElementById("tasks");
+                x.parentNode.replaceChild(y_copy,x);
+            }
+            else
+            {
+                var x=document.getElementById("tasks");
+                var children=x.childNodes;
+                for(var i=0;i<children.length;i++)
+                {
+                    child=children[i];
+                    child.hidden=true;
+                    if(pattern.test(child.id))
+                    {
+                        child.hidden=false;
+                    }
+                }
+            }
+        }
+
+        function re_assign(title)
+        {
+            window.location.href="{{url_for('re_assign',re_ass_title='temp')}}".replace("temp",title);
+        }
+
+    </script>
+
+</body>
+</html>

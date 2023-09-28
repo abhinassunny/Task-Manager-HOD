@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 安装 - 完成</String>
+  <String Id="headerJava">您已成功安装 Java</String>
+  <String Id="headerJavaWithFullStop">您已成功安装 Java。</String>
+  <String Id="headerGoogle">您已成功安装 Java 和 Google 工具栏</String>
+  <String Id="headerYahoo">您已成功安装 Java 和 Yahoo! 工具栏</String>
+  <String Id="headerBing">您已成功安装 Java 和 Bing 工具栏</String>
+
+  <String Id="sponsorCarbo">将很快开始执行 Carbonite 安装。</String>
+  <String Id="sponsorMcAfee">将很快开始执行 McAfee 安装。</String>
+  <String Id="sponsorAsk">将很快安装 Ask 扩展。</String>
+  <String Id="sponsorGeneric">将很快安装赞助商产品。</String>
+
+  <String Id="noteOnUpdates">
+      当有 Java 更新可用时, 系统将会提示您。
+      请始终安装更新以获取最新的性能和安全改进。
+  </String>
+  <String Id="updateLink">[有关更新设置的详细信息]</String>
+  <String Id="securityNote">安全级别已设置为 "高" 的最小值。</String>
+  <String Id="securityLink">[详细信息]</String>
+  <String Id="noteVerify">单击 "关闭" 后, 浏览器将会打开以便您可以验证 Java 是否工作正常。</String>
+  <String Id="restartBrowser">
+      立即重新启动我的浏览器以完成安装 (在单击 "关闭" 之前, 请保存您的工作)
+  </String>
+  <String Id="backBtn">上一步(&amp;B)</String>
+  <String Id="closeBtn">关闭(&amp;C)</String>
+
+</WixLocalization>

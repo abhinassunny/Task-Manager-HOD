@@ -1,0 +1,11 @@
+Flask
+google-auth
+google-auth-oauthlib
+oauthlib
+pathlib
+vendor
+requests
+requests-oauthlib
+authlib
+google-api-python-client
+virtualenv

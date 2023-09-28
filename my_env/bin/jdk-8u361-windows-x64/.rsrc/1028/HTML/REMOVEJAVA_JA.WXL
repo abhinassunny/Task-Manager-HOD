@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="title">最新でないバージョンのJavaを削除してください</String>
+  <String Id="Header">最新でないバージョンのJavaを削除してください</String>
+  <String Id="Description">
+    このコンピュータ上のJavaソフトウェアのバージョンは最新ではなく、今後の更新は利用できません。  
+  </String>
+  <String Id="StillUse">
+      最新でないバージョンのJavaをシステム上に残しておくと、セキュリティ・リスクが生じる可能性があります。
+  </String>
+  <String Id="Outofdatewarning">削除後もデスクトップ・アプリケーションを実行するためにJavaが必要な場合は、[java.com]にアクセスして推奨バージョンを確認してください。</String>
+  <String Id="removeBtn">削除(&amp;R) ></String>
+</WixLocalization>

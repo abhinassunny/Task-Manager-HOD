@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 安装 - 目标文件夹</String>
+  <String Id="header">目标文件夹</String>
+  <String Id="description">单击 "更改" 以将 Java 安装到其他文件夹。</String>
+  <String Id="installTo">安装到:</String>
+  <String Id="notemptyFolder">此文件夹不为空。请选择一个空文件夹。</String>
+  <String Id="semicolonInPath">此产品不支持带分号的路径。</String>
+  <String Id="networkdrive">此文件夹位于网络驱动器上。请选择本地驱动器。</String>
+  <String Id="pathtooshort">文件夹路径太短。请选择具有更长路径的文件夹。</String>
+  <String Id="changeFolderBtn">更改(&amp;C)...</String>
+  <String Id="backBtn">&lt; 上一步(&amp;B)</String>
+  <String Id="nextBtn">下一步(&amp;N) ></String>
+
+</WixLocalization>

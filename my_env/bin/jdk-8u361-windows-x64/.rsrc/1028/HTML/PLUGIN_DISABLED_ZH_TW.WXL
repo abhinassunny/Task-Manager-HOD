@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 - 停用瀏覽器 Plug-in</String>
+  <String Id="header">Web 瀏覽器中的 Java 內容已停用</String>
+  <String Id="description">若要啟用，請由「Java 控制面板」的「安全」頁籤選取「在瀏覽器中啟用 Java 內容」。</String>
+  <String Id="nextBtn">下一步(&amp;N) ></String>
+
+</WixLocalization>

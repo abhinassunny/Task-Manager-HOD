@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Remova versões desatualizadas do Java</String>
+  <String Id="Header">Remova versões desatualizadas do Java</String>
+  <String Id="Description">
+    A versão do software Java neste computador não é atual e não há mais atualizações para ela.  
+  </String>
+  <String Id="StillUse">
+      Manter versões desatualizadas do Java no seu sistema pode representar um risco à segurança.
+  </String>
+  <String Id="Outofdatewarning">Se você ainda precisar do Java para executar aplicativos de desktop após a remoção, visite [java.com] para obter uma versão recomendada.</String>
+  <String Id="removeBtn">&amp;Remover ></String>
+</WixLocalization>

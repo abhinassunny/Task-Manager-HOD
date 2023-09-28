@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+    <String Id="title">Java 安装 - 进度</String>
+    <String Id="statusLbl">状态</String>
+    <String Id="uninstallStatusFormat">正在卸载 %JRE_NAME% (%NUM% 个 Java 版本, 共 %TOTAL% 个)</String>
+    <String Id="completeStatus">卸载完成</String>
+    <String Id="viewListLink">
+        [查看已卸载的过期版本列表]
+    </String>
+    <String Id="nextBtn">下一步(&amp;N) ></String>
+</WixLocalization>

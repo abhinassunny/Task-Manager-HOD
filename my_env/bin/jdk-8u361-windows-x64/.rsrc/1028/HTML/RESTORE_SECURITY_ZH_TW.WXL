@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 - 回復安全提示</String>
+  <String Id="header">回復 Java 安全提示</String>
+  <String Id="description">
+      如果選取「不要再顯示此訊息」選項，會隱藏一部分的 Java 安全提示。
+	  您可以每 30 天回復一次這些提示，提昇您個人資訊的安全。
+  </String>
+  <String Id="moreInfo">
+      [更多資訊]
+  </String>
+  <String Id="restoreCheckbox">回復 Java 安全提示</String>
+  <String Id="backBtn">上一步(&amp;B)</String>
+  <String Id="nextBtn">下一步(&amp;N) ></String>
+
+</WixLocalization>

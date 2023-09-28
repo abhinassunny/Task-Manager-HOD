@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java-installation slutförd</String>
+    <String Id="uninstalledVersionsText">
+        Gamla versioner av Java har avinstallerats
+    </String>
+    <String Id="remainingVersionsText">
+        Följande inaktuella versioner finns kvar i systemet
+    </String>
+    <String Id="closeBtn">St&amp;äng</String>
+    <String Id="securityInfo">
+        Inaktuella installerade Java-versioner på datorn kan utgöra en säkerhetsrisk. Klicka [här] för mer information och instruktioner om hur du tar bort inaktuella versioner.
+    </String>
+    <String Id="uninstalledListNone">
+        Ingen
+    </String>
+    <String Id="remainingListNone">
+        Ingen
+    </String>
+</WixLocalization>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java 安裝 - 目的地資料夾</String>
+  <String Id="header">目的地資料夾</String>
+  <String Id="description">按一下「變更...」以將Java安裝至其他資料夾。</String>
+  <String Id="installTo">安裝到:</String>
+  <String Id="notemptyFolder">此資料夾不是空的。請選取空的資料夾。</String>
+  <String Id="semicolonInPath">本產品不支援其中包含分號的路徑。</String>
+  <String Id="networkdrive">此資料夾位於網路磁碟機。請選取本機磁碟機。</String>
+  <String Id="pathtooshort">資料夾路徑太短。請選取路徑較長的資料夾。</String>
+  <String Id="changeFolderBtn">變更(&amp;C)...</String>
+  <String Id="backBtn">&lt; 上一步(&amp;B)</String>
+  <String Id="nextBtn">下一步(&amp;N) ></String>
+
+</WixLocalization>

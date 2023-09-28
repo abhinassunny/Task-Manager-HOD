@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Instalação do Java - Andamento</String>
+  <String Id="statusLbl">Status</String>
+  <String Id="status">Instalando o Java</String>
+
+</WixLocalization>

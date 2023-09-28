@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture=" sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="title">Ta bort inaktuella versioner av Java</String>
+  <String Id="Header">Ta bort inaktuella versioner av Java</String>
+  <String Id="Description">
+    Versionen av Java-programvaran som körs på den här datorn är inaktuell, och det finns inga uppdateringar för den.  
+  </String>
+  <String Id="StillUse">
+      Att ha kvar inaktuella versioner av Java på datorn kan innebära en säkerhetsrisk.
+  </String>
+  <String Id="Outofdatewarning">Om du fortfarande vill köra skrivbordsapplikationer med Java efter borttagning kan du besöka [java.com] och hitta en rekommenderad version.</String>
+  <String Id="removeBtn">Ta bo&amp;rt ></String>
+</WixLocalization>

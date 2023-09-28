@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - ようこそ</String>
+  <String Id="header">Javaへようこそ - 更新されたライセンス条項</String>
+  <String Id="description1">
+      このバージョンのソフトウェアのライセンスに適用される条項が変更されました。
+  </String>
+   <String Id="license">
+      [更新されたライセンス契約]
+  </String>
+  <String Id="description2">
+      このバージョンのJava Runtimeは、個人の(商用でない)デスクトップおよびラップトップの使用に限ってライセンスされます。
+  </String>
+  <String Id="description3">
+      このソフトウェアを商用目的で使用するには、オラクル社またはソフトウェア・ベンダーからのライセンスが別途必要です。
+  </String>
+  <String Id="description4">
+      「インストール」をクリックしてライセンス契約に同意し、Javaのインストールを今すぐ開始するか、「削除」をクリックしてJavaをシステムからアンインストールします。
+  </String>
+  <String Id="personalInfo">
+      インストール・プロセスで個人情報が収集されることはありません。
+      [収集する情報の詳細]
+  </String>
+
+  <String Id="changeFolder">宛先フォルダを変更する</String>
+  <String Id="installBtn">インストール</String>
+  <String Id="removeBtn">削除(&amp;R)</String>
+
+</WixLocalization>

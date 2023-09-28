@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1040</String>
+
+  <String Id="title">Impostazione Java - Plugin del browser disabilitato</String>
+  <String Id="header">Il contenuto Java è disabilitato nei browser Web</String>
+  <String Id="description">Per abilitarlo, selezionare 'Abilitare il contenuto Java nel browser' nella scheda Sicurezza del Pannello di controllo Java.</String>
+  <String Id="nextBtn">A&amp;vanti ></String>
+
+</WixLocalization>

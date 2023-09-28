@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - コピー先フォルダ</String>
+  <String Id="header">コピー先フォルダ</String>
+  <String Id="description">Javaを別のフォルダにインストールするには「変更」をクリックしてください。</String>
+  <String Id="installTo">インストール先:</String>
+  <String Id="notemptyFolder">このフォルダは空ではありません。空のフォルダを選択してください。</String>
+  <String Id="semicolonInPath">セミコロンを含むパスはこの製品ではサポートされていません。</String>
+  <String Id="networkdrive">このフォルダはネットワーク・ドライブ上にあります。ローカル・ドライブを選択してください。</String>
+  <String Id="pathtooshort">フォルダのパスが短すぎます。もっと長いパスのフォルダを選択してください。</String>
+  <String Id="changeFolderBtn">変更(&amp;C)...</String>
+  <String Id="backBtn">&lt; 戻る(&amp;B)</String>
+  <String Id="nextBtn">次(&amp;N) ></String>
+
+</WixLocalization>

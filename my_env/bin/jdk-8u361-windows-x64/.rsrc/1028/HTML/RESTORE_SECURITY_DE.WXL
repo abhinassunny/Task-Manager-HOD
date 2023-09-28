@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1031</String>
+
+  <String Id="title">Java-Setup – Sicherheits-Prompts wiederherstellen</String>
+  <String Id="header">Java-Sicherheits-Prompts wiederherstellen</String>
+  <String Id="description">
+      Einige Java-Sicherheits-Prompts wurden ausgeblendet, als Sie die Option "Diese Meldung nicht mehr anzeigen" ausgewählt haben.
+	  Sie können die Verwaltung Ihrer personenbezogenen Daten sicherer machen, indem Sie diese Prompts alle 30 Tage wiederherstellen.
+  </String>
+  <String Id="moreInfo">
+      [Weitere Informationen]
+  </String>
+  <String Id="restoreCheckbox">Java-Sicherheits-Prompts wiederherstellen</String>
+  <String Id="backBtn">&amp;Zurück</String>
+  <String Id="nextBtn">&amp;Weiter ></String>
+
+</WixLocalization>

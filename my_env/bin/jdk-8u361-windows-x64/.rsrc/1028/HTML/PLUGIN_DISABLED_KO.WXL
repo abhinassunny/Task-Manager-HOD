@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="lang">1042</String>
+
+  <String Id="title">Java 설치 - 브라우저 플러그인 사용 안함</String>
+  <String Id="header">웹 브라우저에서 Java 콘텐츠가 사용 안함으로 설정되어 있습니다.</String>
+  <String Id="description">사용으로 설정하려면 Java 제어판의 보안 탭에서 '브라우저의 Java 콘텐츠 사용'을 선택하십시오.  </String>
+  <String Id="nextBtn">다음(&amp;N) ></String>
+
+</WixLocalization>

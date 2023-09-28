@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java-installation pågår</String>
+    <String Id="statusLbl">Status</String>
+    <String Id="uninstallStatusFormat">Avinstallerar %JRE_NAME% (%NUM% av %TOTAL% Java-versioner)</String>
+    <String Id="completeStatus">Avinstallation har slutförts</String>
+    <String Id="viewListLink">
+        [Visa listan över inaktuella versioner som har avinstallerats]
+    </String>
+    <String Id="nextBtn">&amp;Nästa ></String>
+</WixLocalization>

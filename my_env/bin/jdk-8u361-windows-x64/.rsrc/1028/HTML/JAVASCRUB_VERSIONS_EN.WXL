@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id='title'>Java Setup - Uninstall out-of-date versions</String>
+    <String Id='headerText'>Out-of-Date Java versions Detected</String>
+    <String Id='description'>
+        Keeping out-of-date Java versions installed on your system may present a security risk.
+    </String>
+    <String Id='uninstallInfo'>
+        Click "Uninstall" to uninstall the selected Java versions.
+    </String>
+    <String Id='moreInfo'>
+        Warning: Uninstalling out-of-date versions of Java may cause some older Java
+        applications to no longer run. [More information]
+    </String>
+    <String Id='laterBtn'>&amp;Not Now</String>
+    <String Id='uninstallBtn'>&amp;Uninstall &gt;</String>
+</WixLocalization>

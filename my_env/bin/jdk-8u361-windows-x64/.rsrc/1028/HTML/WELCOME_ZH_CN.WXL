@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="lang">2052</String>
+
+  <String Id="title">Java 安装程序 - 欢迎使用</String>
+  <String Id="header">欢迎使用 Java - 更新的许可证条款</String>
+  <String Id="description1">
+      授权使用此软件版本的条款已更改。
+  </String>
+   <String Id="license">
+      [更新的许可协议]
+  </String>
+  <String Id="description2">
+      此 Java 运行时版本仅授权供您的个人（非商用）台式机和笔记本电脑使用。
+  </String>
+  <String Id="description3">
+      要对此软件进行商业使用，需要从 Oracle 或您的软件供应商获得单独的许可证。
+  </String>
+  <String Id="description4">
+      单击“安装”可接受许可协议并立即安装 Java，单击“删除”可从您的系统中卸载 Java。
+  </String>
+  <String Id="personalInfo">
+      在我们的安装过程中，不会收集个人信息。
+      [有关我们所收集信息的详细信息]
+  </String>
+
+  <String Id="changeFolder">更改目标文件夹</String>
+  <String Id="installBtn">安装</String>
+  <String Id="removeBtn">删除(&amp;R)</String>
+
+</WixLocalization>

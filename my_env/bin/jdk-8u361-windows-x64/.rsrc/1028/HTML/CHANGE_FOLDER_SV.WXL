@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture=" sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1053</String>
+
+  <String Id="title">Java-installation - destinationsmapp</String>
+  <String Id="header">Destinationsmapp</String>
+  <String Id="description">Klicka på Ändra för att installera Java i en annan mapp.</String>
+  <String Id="installTo">Installera i:</String>
+  <String Id="notemptyFolder">Den här mappen är inte tom. Välj en tom mapp.</String>
+  <String Id="semicolonInPath">En sökväg med ett semikolon stöds inte för den här produkten.</String>
+  <String Id="networkdrive">Den här mappen finns på en nätverksenhet. Välj en lokal enhet.</String>
+  <String Id="pathtooshort">Mappsökvägen är för kort. Välj en mapp med en längre sökväg.</String>
+  <String Id="changeFolderBtn">&amp;Ändra...</String>
+  <String Id="backBtn">&lt; &amp;Föregående</String>
+  <String Id="nextBtn">&amp;Nästa ></String>
+
+</WixLocalization>

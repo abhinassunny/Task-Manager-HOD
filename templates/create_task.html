@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Create Task</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css'>
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{url_for('index')}}">HOD Portal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link active" href="{{url_for('index')}}"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('faculty_info')}}"><i class="fa-sharp fa-solid fa-user"></i> Faculty</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('archives')}}"><i class="fas fa-archive"></i> Archives</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('HOD_notifications')}}"><i class="fa fa-bell"></i> Notifications</a>
+                </li>
+                <li class="nav-item" style="margin-right: 60px;">
+                    <a class="nav-link" href="{{url_for('logout')}}"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="main">
+    <div class="container mt-5" align="center" id="create">
+        <h1 align="center">Create Task</h1>
+		<form method="post" style="width: 50%">
+            <table class="form-group" width="100%">
+                <tr height="100px">
+                    <td><label for="TaskTittle">Title</label></td>
+                    <td><input type="text" class="form-control form-input" placeholder="Task Tittle" id="title" ></td>
+                </tr>
+                <tr height="75px">
+                    <td><label for="startDate">Start Date</label></td>
+                    <td><input type="date" class="form-control" onclick="style='color: black'" id="start_date" ></td>
+                </tr>
+                <tr>
+                    <td><label for="endDate">End Date</label></td>
+                    <td><input type="date" class="form-control" onclick="style='color: black'" id="end_date" ></td>
+                </tr height="100px">
+            </table>
+            <br>
+			<div class="form-group">
+				<textarea class="form-control form-input" id="description" placeholder="Type description here..." rows="4"></textarea>
+			</div>
+            <p align="left" style="font-size:x-small; color:#0c637d;">* number of assigned tasks - faculty</p>
+            <div class="row d-flex justify-content-center mt-100">
+                <div class="col-md-12"> 
+                    <select class="select" id="choices-multiple-remove-button" placeholder="Select Faculty" onchange="move()" multiple>
+                        {% for x in data %}
+                        <option value="{{x['name']}}">{{x["tasks"]}} - {{x["name"]}}</option>
+                        {% endfor %}
+                    </select> 
+                </div>
+            </div>
+            <br>
+		</form>
+        <button type="submit" class="btn btn-primary" onclick="submit()">Create</button>
+	</div>
+    <div id="view">
+        <br><br>
+        <h1 id="heading" align="center"></h1>
+        <br>
+        <div id="faculty-section" class="faculty-section">
+            <!--div class="faculty-list">
+              <div class="faculty">
+                <div class="faculty-name">
+                  <label for="Manjusha">Faculty Name: Manjusha</label>
+                </div>
+                <div class="task-job">
+                  <label for="manjusha">Task Job:</label>
+                  <input type="text" id="Manjusha" name="Manjusha">
+                </div>
+              </div-->
+        </div>
+    </div>
+</div>
+    <script>
+        function move()
+        {
+            var main=document.getElementById("main");
+            main.classList.add("row");
+            var create=document.getElementById("create");
+            create.classList.add("col-8");
+            create.align="center";
+            var heading=document.getElementById("heading");
+            heading.innerText="Selected Faculty";
+            heading.align="center";
+            
+            var view=document.getElementById("view");
+            view.classList.add("col-4");
+
+            var select=document.getElementById("choices-multiple-remove-button");
+            var names=select.options;
+            var faculty_section=document.getElementById("faculty-section");
+            faculty_section.innerHTML="";
+
+            if(!names.length)
+            {
+                main.classList.remove("row");
+                heading.innerText="";
+            }
+
+            for(var i=0;i<names.length;i++)
+            {
+                var name=names[i].value;
+                var faculty_name=document.createElement("div");
+                faculty_name.classList.add("faculty-name");
+                var label1=document.createElement("label");
+                label1.innerText="Faculty Name : "+name;
+                var task_job=document.createElement("div");
+                task_job.classList.add("task-job");
+                var label2=document.createElement("label");
+                label2.innerText="Task Job : ";
+                var input=document.createElement("input");
+                input.type="text";
+                input.id=name;
+                input.name=name;
+                input.required=true;
+                faculty_name.appendChild(label1);
+                task_job.appendChild(label2);
+                task_job.appendChild(input);
+                var faculty=document.createElement("div");
+                faculty.classList.add("faculty");
+                faculty.appendChild(faculty_name);
+                faculty.appendChild(task_job);
+                faculty_section.appendChild(faculty);
+            }
+        }
+
+        function submit()
+        {
+            var title=document.getElementById("title").value;
+            var start_date=document.getElementById("start_date").value;
+            var end_date=document.getElementById("end_date").value;
+            var description=document.getElementById("description").value;
+            var faculty={};
+            var select=document.getElementById("choices-multiple-remove-button");
+            var names=select.options;
+            for(var i=0;i<names.length;i++)
+            {
+                var name=names[i].value;
+                text=document.getElementById(name).value;
+                faculty[name]=text;
+            }
+            var x={"title":title,"start_date":start_date,"end_date":end_date,"description":description,"faculty":faculty};
+            var data=JSON.stringify(x);
+            window.location.href="{{url_for('create_task',data='temp')}}".replace("temp",data)
+        }
+
+    </script>
+
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+    <script  src="{{url_for('static',filename='js/script.js')}}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+<script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+
+</body>

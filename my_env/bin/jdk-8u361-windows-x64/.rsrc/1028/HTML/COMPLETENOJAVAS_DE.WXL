@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1031</String>
+
+  <String Id="title">Java-Setup - Abgeschlossen</String>
+  <String Id="headerJava">Im System wurde keine Java-Installation erkannt</String>
+  <String Id="closeBtn">&amp;Schließen</String>
+
+</WixLocalization>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - セキュリティ・プロンプトの復元</String>
+  <String Id="header">Javaセキュリティ・プロンプトの復元</String>
+  <String Id="description">
+      「再度表示しない」オプションを選択すると、一部のJavaセキュリティ・プロンプトが表示されなくなります。
+	  30日ごとにこれらのプロンプトを復元することで、個人情報に対するセキュリティを向上できます。
+  </String>
+  <String Id="moreInfo">
+      [詳細情報]
+  </String>
+  <String Id="restoreCheckbox">Javaセキュリティ・プロンプトの復元</String>
+  <String Id="backBtn">戻る(&amp;B)</String>
+  <String Id="nextBtn">次(&amp;N) ></String>
+
+</WixLocalization>

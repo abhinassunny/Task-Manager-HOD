@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - 進行中</String>
+  <String Id="statusLbl">状態</String>
+  <String Id="status">Javaのインストール中</String>
+
+</WixLocalization>

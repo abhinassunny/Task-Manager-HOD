@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+  <String Id="title">Java Update - 更新可用</String>
+  <String Id="Header">请删除未使用的 Java 版本</String>
+  <String Id="Description1">
+    您系统中的 Java 已有 6 个月未使用。我们建议您通过单击下面的&lt;b>删除&lt;/b>按钮卸载它。如果您稍后决定需要 Java，您可以从 java.com 重新安装它。
+  </String>
+  <String Id="Description2">
+    如果您想要在系统中保留 Java，请通过单击下面的&lt;b>更新&lt;/b> 按钮更新它。
+  </String>
+  <String Id="nextBtn">删除(&amp;R) ></String>
+  <String Id="backBtn">更新</String>
+</WixLocalization>

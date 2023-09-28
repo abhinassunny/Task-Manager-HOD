@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="fr" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1036</String>
+
+  <String Id="title">Installation de Java inachevée</String>
+  <String Id="headerInstall">L'installation de Java a échoué</String>
+  <String Id="headerUpdate">La mise à jour de Java a échoué</String>
+  <String Id="errorCodeFormat">Code d'erreur : %1</String>
+  <String Id="helpText">Pour plus d'informations sur la résolution des incidents, consultez le centre d'aide Java ou contactez l'administrateur système.</String>
+  <String Id="helpLink">[Accéder au centre d'aide Java]</String>
+  <String Id="closeBtn">&amp;Fermer</String>
+
+</WixLocalization>

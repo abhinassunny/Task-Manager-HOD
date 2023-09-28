@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="title">이전 버전의 Java 제거</String>
+  <String Id="Header">이전 버전의 Java 제거</String>
+  <String Id="Description">
+    이 컴퓨터의 Java 소프트웨어는 최신 버전이 아니며 업데이트가 더 이상 필요하지 않습니다.  
+  </String>
+  <String Id="StillUse">
+      시스템에 오래된 Java 버전을 유지하면 보안 위험이 따를 수 있습니다.
+  </String>
+  <String Id="Outofdatewarning">제거한 후에도 데스크톱 애플리케이션을 실행할 Java가 필요한 경우 [java.com]을 방문하여 권장 버전을 확인하십시오.</String>
+  <String Id="removeBtn">제거(&amp;R) ></String>
+</WixLocalization>

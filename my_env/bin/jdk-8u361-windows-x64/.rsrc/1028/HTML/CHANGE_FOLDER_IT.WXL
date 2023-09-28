@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1040</String>
+
+  <String Id="title">Impostazione Java - Cartella di destinazione</String>
+  <String Id="header">Cartella di destinazione</String>
+  <String Id="description">Fare clic su "Modifica" per installare Java in un'altra cartella.</String>
+  <String Id="installTo">Installa in:</String>
+  <String Id="notemptyFolder">Questa cartella non è vuota. Selezionare una cartella vuota.</String>
+  <String Id="semicolonInPath">I percorsi che contengono un punto e virgola non sono supportati per questo prodotto.</String>
+  <String Id="networkdrive">Questa cartella si trova su un'unità di rete. Selezionare un'unità locale.</String>
+  <String Id="pathtooshort">Il percorso della cartella è troppo breve. Selezionare una cartella con un percorso più lungo.</String>
+  <String Id="changeFolderBtn">&amp;Modifica...</String>
+  <String Id="backBtn">&lt; &amp;Indietro</String>
+  <String Id="nextBtn">A&amp;vanti ></String>
+
+</WixLocalization>

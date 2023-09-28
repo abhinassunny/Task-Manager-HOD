@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="fr" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1036</String>
+
+  <String Id="title">Configuration Java - Bienvenue</String>
+  <String Id="header">Bienvenue dans Java - Mise à jour des conditions de licence</String>
+  <String Id="description1">
+      Les conditions d'octroi de licence pour cette version du logiciel ont été modifiées.
+  </String>
+   <String Id="license">
+      [Mise à jour du contrat de licence]
+  </String>
+  <String Id="description2">
+      La licence de cette version de Java Runtime est octroyée uniquement à des fins d'utilisation personnelle (non commerciale) sur ordinateur portable ou de bureau.
+  </String>
+  <String Id="description3">
+      L'utilisation de ce logiciel à des fins commerciales requiert une licence distincte acquise auprès d'Oracle ou de votre fournisseur de logiciels.
+  </String>
+  <String Id="description4">
+      Cliquez sur Installer pour accepter le contrat de licence et installer Java maintenant, ou cliquez sur Enlever pour le désinstaller de votre système.
+  </String>
+  <String Id="personalInfo">
+      Aucune information personnelle ne sera recueillie dans le cadre de notre processus d'installation.
+      [Détails sur les informations collectées]
+  </String>
+
+  <String Id="changeFolder">Modifier le dossier de destination</String>
+  <String Id="installBtn">Installer</String>
+  <String Id="removeBtn">Enleve&amp;r</String>
+
+</WixLocalization>

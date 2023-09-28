@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="it" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1040</String>
+
+  <String Id="title">Impostazione Java - Benvenuti</String>
+  <String Id="header">Benvenuti in Java - Termini di licenza aggiornati</String>
+  <String Id="description1">
+      I termini della concessione in licenza di questa versione del software sono stati modificati.
+  </String>
+   <String Id="license">
+      [Contratto di licenza aggiornato]
+  </String>
+  <String Id="description2">
+      Questa versione di Java Runtime viene concessa in licenza solo per l'utilizzo personale, non commerciale, su computer laptop e desktop.
+  </String>
+  <String Id="description3">
+      L'uso commerciale di questo software richiede l'acquisto di una licenza distinta da Oracle o dal fornitore del software.
+  </String>
+  <String Id="description4">
+      Fare clic su Installa per accettare il contratto di licenza e installare Java adesso oppure fare clic su Rimuovi per disinstallarlo dal sistema.
+  </String>
+  <String Id="personalInfo">
+      Durante il processo di installazione non vengono raccolti dati personali di alcun genere.
+      [Dettagli sulle informazioni raccolte]
+  </String>
+
+  <String Id="changeFolder">Modifica cartella di destinazione</String>
+  <String Id="installBtn">Installa</String>
+  <String Id="removeBtn">&amp;Rimuovi</String>
+
+</WixLocalization>

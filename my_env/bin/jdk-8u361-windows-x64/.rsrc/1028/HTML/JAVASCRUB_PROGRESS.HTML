@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!--
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+    ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title> </title>
+  <script type="text/javascript" src="runtime.js"></script>
+<script type="text/javascript" src="host.js"></script>
+<script type="text/javascript" src="l10n.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+<script type="text/javascript" src="rtutils.js"></script>
+  <script type="text/javascript">
+// disable close button
+host.setWindowProp("closeButton", 0);
+
+addOnloadCallback( function () {
+    getElement("nextBtn").onclick = function () {
+        host.notify("next")
+    }
+})
+
+function setStatus(jreName, jreNum, jreTotal) {
+    var formatStr = getElement("uninstallStatusFormat").innerHTML;
+    getElement("uninstallStatus").innerText = formatStr.replace("%JRE_NAME%", jreName).replace("%NUM%", jreNum).replace("%TOTAL%", jreTotal);
+}
+
+function showProgressView(v) {
+    setDivDisplay('nextBtn', !v);
+    setDivDisplay('viewListLink', !v);
+    setDivDisplay('progressImg', v);
+    setSpanDisplay('uninstallStatus', v);
+    setSpanDisplay('completeStatus', !v);
+}
+
+function setSpanDisplay(id, v) {
+    getElement(id).style.display = v ? 'inline' : 'none';
+}
+
+function setDivDisplay(id, v) {
+    getElement(id).style.display = v ? 'block' : 'none';
+}
+
+urls = {
+    viewListLink: "viewListLink"
+}
+
+</script>
+  <link rel="stylesheet" type="text/css" href="common.css"></link>
+  <style media="screen" type="text/css"
+>#main {
+  padding: 0;
+  margin: 0;
+
+  /* TODO: revise (calculate content height and center the image vertically) */
+  display: table-cell;
+  vertical-align: middle;
+  height: 202px;
+}
+
+#progressImg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#viewListLink {
+  padding: 20pt;
+  display: block;
+  text-align: left;
+  height: 100%;
+}
+
+#header_ctnr {
+  padding-left: 20pt;
+  padding-right: 20pt;
+  text-align: left;
+}
+
+.status {
+  font-size: 10pt;
+  font-weight: normal;
+  margin-bottom: 2pt;
+}
+
+.padding {
+    padding-left: 3pt;
+}
+</style>
+</head>
+<body role="dialog">
+﻿<div id="root">
+
+<table id="masthead">
+<tr>
+  <td class="left"><img alt="" src="masthead_left.png"/></td>
+  <td class="fill"><img alt="" src="masthead_fill.png"/></td>
+</tr>
+</table>
+
+<table>
+
+<tr><td id="header_ctnr"><span id="header"></span></td></tr>
+
+<tr><td id="main"></td></tr>
+
+</table>
+
+<div id="footer_ctnr">
+  <div class="hr"></div>
+  <div id="footer">
+    <table class="left">
+      <tr><td>
+      <div id="footer_left"></div>
+      </td></tr>
+    </table>
+    <table class="right">
+      <tr><td>
+      <div id="footer_right"></div>
+      </td></tr>
+  </table>
+  </div>
+</div>
+
+</div>
+﻿<div id="header.src">
+  <div class="status">
+    <span id="statusLbl"></span>:
+    <span id="uninstallStatus" class="padding"></span>
+    <span id="completeStatus" class="padding"></span>
+  </div>
+</div>
+<div id="uninstallStatusFormat" style="display: none"></div>
+
+<div id="main.src">
+  <div id="viewListLink"></div>
+  <div id="progressImg">
+    <img alt="" src="loader.gif"/>
+  </div>
+</div>
+
+<div id="footer_right.src">
+  <button id="nextBtn"></button>
+</div>
+
+</body>
+<script>
+  try {
+    initLayout();
+  } catch(e) {
+  }
+</script>
+</html>

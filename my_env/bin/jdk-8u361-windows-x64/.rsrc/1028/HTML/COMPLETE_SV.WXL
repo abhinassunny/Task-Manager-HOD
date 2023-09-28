@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="sv" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1053</String>
+
+  <String Id="title">Java-installation slutförd</String>
+  <String Id="headerJava">Java har installerats.</String>
+  <String Id="headerJavaWithFullStop">Java har installerats.</String>
+  <String Id="headerGoogle">Java och Google Verktygsfält har installerats.</String>
+  <String Id="headerYahoo">Java och Yahoo! Verktygsfält har installerats</String>
+  <String Id="headerBing">Java och verktygsfältet Bing har installerats</String>
+
+  <String Id="sponsorCarbo">Installationen av Carbonite kommer snart att börja.</String>
+  <String Id="sponsorMcAfee">Installationen av McAfee kommer snart att börja.</String>
+  <String Id="sponsorAsk">Installationen av Ask-tillägget/-tilläggen kommer snart att börja.</String>
+  <String Id="sponsorGeneric">Installationen av sponsorerbjudandet kommer snart att börja.</String>
+
+  <String Id="noteOnUpdates">        Du kommer att informeras om nya Java-uppdateringar.
+      Installera alltid uppdateringar för att få tillgång till de senaste prestanda- och säkerhetsförbättringarna.
+  </String>
+  <String Id="updateLink">[Mer om uppdateringsinställningar]</String>
+  <String Id="securityNote">Säkerhetsnivån har ställts in på minimivärdet Hög.</String>
+  <String Id="securityLink">[Mer information]</String>
+  <String Id="noteVerify">När du klickar på Stäng öppnas webbläsaren så att du kan verifiera att Java fungerar.</String>
+  <String Id="restartBrowser">
+      Starta om min webbläsare nu för att slutföra installationen (spara ditt arbete innan du klickar på Stäng)
+  </String>
+  <String Id="backBtn">&amp;Föregående</String>
+  <String Id="closeBtn">St&amp;äng</String>
+
+</WixLocalization>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1034</String>
+
+  <String Id="title">Configuración de Java - Restaurar peticiones de datos de seguridad</String>
+  <String Id="header">Restaurar peticiones de datos de seguridad de Java</String>
+  <String Id="description">
+      Algunas peticiones de datos de seguridad de Java se han ocultado al seleccionar la opción 'No volver a mostrar'.
+	  Puede mejorar la seguridad de su información personal restaurando estas peticiones de datos cada 30 días.
+  </String>
+  <String Id="moreInfo">
+      [Más información]
+  </String>
+  <String Id="restoreCheckbox">Restaurar peticiones de datos de seguridad de Java</String>
+  <String Id="backBtn">A&amp;trás</String>
+  <String Id="nextBtn">&amp;Siguiente ></String>
+
+</WixLocalization>

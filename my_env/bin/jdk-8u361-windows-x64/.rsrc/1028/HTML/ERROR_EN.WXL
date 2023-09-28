@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id='lang'>1033</String>
+
+  <String Id='title'>Java Setup - Incomplete</String>
+  <String Id='headerInstall'>Java install did not complete</String>
+  <String Id='headerUpdate'>Java update did not complete</String>
+  <String Id='errorCodeFormat'>Error Code: %1</String>
+  <String Id='helpText'>
+      Please refer to the Java Help Center for troubleshooting information or contact your system administrator.
+  </String>
+  <String Id='helpLink'>[Go to the Java Help Center]</String>
+  <String Id='closeBtn'>&amp;Close</String>
+
+</WixLocalization>

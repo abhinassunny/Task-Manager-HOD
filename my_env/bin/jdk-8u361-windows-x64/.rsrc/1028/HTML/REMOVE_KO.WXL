@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+  <String Id="title">Java Update - 업데이트 사용 가능</String>
+  <String Id="Header">사용하지 않는 버전의 Java를 제거하십시오.</String>
+  <String Id="Description1">
+    Java를 6개월 이상 사용하지 않았습니다. 아래의 &lt;b>제거&lt;/b> 단추를 눌러 제거하는 것이 좋습니다. 나중에 Java가 필요하면 java.com에서 다시 설치할 수 있습니다. 
+  </String>
+  <String Id="Description2">
+    시스템에 Java를 유지하려는 경우 아래의 &lt;b>업데이트&lt;/b> 단추를 눌러 업데이트하십시오.
+  </String>
+  <String Id="nextBtn">제거(&amp;R) ></String>
+  <String Id="backBtn">업데이트</String>
+</WixLocalization>

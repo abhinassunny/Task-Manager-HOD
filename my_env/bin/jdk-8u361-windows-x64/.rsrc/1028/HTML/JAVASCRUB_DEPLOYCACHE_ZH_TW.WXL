@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+    <String Id="title">Java 部署快取</String>
+    <String Id="headerText">Java 部署快取</String>
+    <String Id="description">
+        Java 使用快取來加快重新載入常用 Java 程式的速度及儲存追蹤和日誌檔。既然您要移除 Java Runtime，我們建議您一併將此快取移除，以釋出電腦的空間。
+    </String>
+    <String Id="question">
+        要移除 Java 快取嗎？(建議移除) 
+    </String>
+    <String Id="learnmore">
+        瞭解 [Java 部署快取] 的其他資訊
+    </String>
+    <String Id="disagreeBtn">否(&amp;N)</String>
+    <String Id="agreeBtn">是(&amp;Y)</String>
+</WixLocalization>

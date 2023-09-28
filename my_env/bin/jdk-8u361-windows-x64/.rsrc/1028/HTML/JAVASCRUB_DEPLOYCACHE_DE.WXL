@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="de" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Java-Deployment-Cache</String>
+    <String Id="headerText">Java-Deployment-Cache</String>
+    <String Id="description">
+        Java verwendet einen Cache, um das erneute Laden häufig genutzter Java-Programme zu beschleunigen und Trace- und Logdateien zu speichern. Da Sie Java Runtime entfernen, wird empfohlen, diesen Cache ebenfalls zu entfernen, um Speicherplatz auf Ihrem Computer freizugeben.
+    </String>
+    <String Id="question">
+        Wollen Sie den Java-Cache wirklich entfernen (empfohlen)?
+    </String>
+    <String Id="learnmore">
+        Weitere Informationen zum [Java-Deployment-Cache]
+    </String>
+    <String Id="disagreeBtn">&amp;Nein</String>
+    <String Id="agreeBtn">&amp;Ja</String>
+</WixLocalization>

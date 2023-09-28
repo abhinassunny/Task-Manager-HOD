@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-CN" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="936">
+    <String Id="title">Java 安装 - 卸载已过期的版本</String>
+    <String Id="headerText">检测到已过期的 Java 版本</String>
+    <String Id="description">
+        在系统上保留已安装的过期 Java 版本会存在安全风险。
+    </String>
+    <String Id="uninstallInfo">
+        单击 "卸载" 可卸载所选 Java 版本。
+    </String>
+    <String Id="moreInfo">
+        警告: 卸载已过期的 Java 版本可能会导致某些较旧的 Java
+        应用程序不再运行。[详细信息]
+    </String>
+    <String Id="laterBtn">暂时不(&amp;N)</String>
+    <String Id="uninstallBtn">卸载(&amp;U) ></String>
+</WixLocalization>

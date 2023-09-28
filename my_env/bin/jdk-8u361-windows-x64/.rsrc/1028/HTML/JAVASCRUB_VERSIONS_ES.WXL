@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="es" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+    <String Id="title">Configuración de Java - Desinstalar versiones obsoletas</String>
+    <String Id="headerText">Versiones de Java obsoletas detectadas</String>
+    <String Id="description">
+        Mantener versiones obsoletas de Java instaladas en su sistema puede suponer un riesgo para la seguridad.
+    </String>
+    <String Id="uninstallInfo">
+        Haga clic en "Desinstalar" para desinstalar las versiones de Java seleccionadas.
+    </String>
+    <String Id="moreInfo">
+      Advertencia: Puede que al desinstalar las versiones obsoletas de Java algunas aplicaciones Java más antiguas
+      dejen de funcionar. [Más información]
+    </String>
+    <String Id="laterBtn">A&amp;hora No</String>
+    <String Id="uninstallBtn">Desi&amp;nstalar ></String>
+</WixLocalization>

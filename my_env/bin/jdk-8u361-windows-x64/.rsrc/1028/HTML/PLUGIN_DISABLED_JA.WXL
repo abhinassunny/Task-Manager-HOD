@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ja" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932">
+  <String Id="lang">1041</String>
+
+  <String Id="title">Javaセットアップ - 無効化されているブラウザ・プラグイン</String>
+  <String Id="header">JavaコンテンツはWebブラウザで無効になっています</String>
+  <String Id="description">有効にするには、Javaコントロール・パネルの「セキュリティ」タブで「ブラウザでJavaコンテンツを有効にする」を選択します。</String>
+  <String Id="nextBtn">次(&amp;N) ></String>
+
+</WixLocalization>

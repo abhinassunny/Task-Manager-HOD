@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="pt-BR" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="1252">
+  <String Id="lang">1046</String>
+
+  <String Id="title">Instalação do Java - Pasta de Destino</String>
+  <String Id="header">Pasta de Destino</String>
+  <String Id="description">Clique em "Alterar..." para instalar o Java em outra pasta.</String>
+  <String Id="installTo">Instalar em:</String>
+  <String Id="notemptyFolder">Esta pasta não está vazia. Selecione uma pasta vazia.</String>
+  <String Id="semicolonInPath">Não há suporte neste produto para um caminho que contenha um ponto-e-vírgula.</String>
+  <String Id="networkdrive">Esta pasta está em uma unidade de rede. Selecione uma unidade local.</String>
+  <String Id="pathtooshort">O caminho da pasta é curto demais. Selecione uma pasta com um caminho mais longo.</String>
+  <String Id="changeFolderBtn">&amp;Alterar...</String>
+  <String Id="backBtn">&lt; &amp;Voltar</String>
+  <String Id="nextBtn">&amp;Próximo ></String>
+
+</WixLocalization>

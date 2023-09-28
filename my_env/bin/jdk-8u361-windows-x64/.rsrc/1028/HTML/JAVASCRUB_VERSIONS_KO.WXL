@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="ko" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="949">
+    <String Id="title">Java 설정 - 오래된 버전 설치 해제</String>
+    <String Id="headerText">오래된 Java 버전이 검색됨</String>
+    <String Id="description">
+        시스템에 오래된 Java 버전을 유지하면 보안 위험이 따를 수 있습니다.
+    </String>
+    <String Id="uninstallInfo">
+        선택한 Java 버전을 설치 해제하려면 "설치 해제"를 누르십시오.
+    </String>
+    <String Id="moreInfo">
+        경고: 오래된 Java 버전을 설치 해제하면 일부 오래된 Java 애플리케이션이 더 이상
+        실행되지 않을 수 있습니다. [자세한 정보]
+    </String>
+    <String Id="laterBtn">지금 안함(&amp;N)</String>
+    <String Id="uninstallBtn">설치 해제(&amp;U) ></String>
+</WixLocalization>

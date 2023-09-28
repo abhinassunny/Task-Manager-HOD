@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<WixLocalization Culture="zh-TW" xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="950">
+  <String Id="lang">1028</String>
+
+  <String Id="title">Java SE Development Kit 8 - 安裝</String>
+
+  <String Id="headerJava">
+      此精靈將引導您完成安裝 %1 的程序
+  </String>
+  <String Id="description1">
+      此版本軟體的授權條款已經變更。
+  </String>
+   <String Id="license">
+      [更新授權合約]
+  </String>
+  <String Id="description2">
+      JDK 中現已提供 Java Mission Control 分析資料與診斷工具套件
+  </String>
+  <String Id="description3">
+      此版本的 JDK 已不再包含 Java Mission Control (JMC)。JMC 現在可以單獨下載。
+  </String>
+  <String Id="jmclink">
+      請造訪 [https://www.oracle.com/javase/jmc] 以瞭解詳細資訊
+  </String>
+  <String Id="personalInfo">
+      安裝過程中不會收集任何個人資訊。
+  </String>
+  <String Id="personalInfolink">
+      [我們所收集資訊的詳細資訊]
+  </String>
+  <String Id="installBtn">下一步</String>
+  <String Id="cancelBtn">取消</String>
+
+</WixLocalization>
